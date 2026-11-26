@@ -1,0 +1,48 @@
+---
+import site from '../content/site.json';
+
+interface Props {
+  locale: 'fr' | 'ja';
+}
+
+const { locale } = Astro.props;
+const copy = site.hero[locale];
+const { paragraphs } = site.hero.fr;
+const { featured } = site.hero;
+---
+
+<section class="wrap hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <div class="eyebrow">{copy.eyebrow}</div>
+    <h1 id="hero-title">{copy.titleBefore}<em lang="fr">{site.name}</em>{copy.titleAfter}</h1>
+    <p class="lead" lang="fr">{paragraphs[0]}</p>
+    <p lang="fr">{paragraphs[1]}</p>
+    <div class="hero-actions">
+      <span class="btn" role="link" aria-disabled="true">
+        {copy.missionButton}
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 5v14M6 13l6 6 6-6" />
+        </svg>
+      </span>
+      <span class="btn outline" role="link" aria-disabled="true">{copy.publicationsButton}</span>
+    </div>
+  </div>
+  <div class="arch">
+    <div class="covers" aria-hidden="true">
+      <div class="covers-grid">
+        {site.hero.covers.map((cover) => (
+          <div><img src={`/images/covers/${cover}.webp`} alt="" /></div>
+        ))}
+      </div>
+    </div>
+    <div class="featured" lang="fr">
+      <div class="featured-meta"><span>{featured.label}</span><b>{featured.date}</b></div>
+      <h2>{featured.title}</h2>
+      <p>{featured.description}</p>
+      <div class="featured-footer">
+        <span role="link" aria-disabled="true">{featured.linkLabel}</span>
+        <div class="featured-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </div>
+</section>

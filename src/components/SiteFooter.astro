@@ -1,0 +1,19 @@
+---
+import site from '../content/site.json';
+
+interface Props {
+  locale: 'fr' | 'ja';
+}
+
+const { locale } = Astro.props;
+---
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <img src="/images/mvv-white.png" width="464" height="319" alt={site.name} lang="fr" loading="lazy" />
+    <div class="footer-copy" lang="fr">{site.footer}</div>
+    <nav>
+      {site.navigation.map((item) => <span role="link" aria-disabled="true">{item[locale]}</span>)}
+    </nav>
+  </div>
+</footer>

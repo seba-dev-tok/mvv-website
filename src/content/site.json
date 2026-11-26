@@ -1,0 +1,57 @@
+{
+  "name": "Mieux Vivre en Ville",
+  "cceName": "Les Conseillers du Commerce Extérieur de la France — Japon",
+  "navigation": [
+    { "href": "#mission", "fr": "Notre mission", "ja": "私たちのミッション" },
+    { "href": "#comite", "fr": "Comité de pilotage", "ja": "運営委員会" },
+    { "href": "#publications", "fr": "Publications", "ja": "出版物" },
+    { "href": "actions/", "fr": "Actions", "ja": "活動" },
+    { "href": "#roadmap", "fr": "Feuille de route 2026-2027", "ja": "2026-2027年ロードマップ" }
+  ],
+  "languages": [
+    { "locale": "fr", "label": "FR", "name": "Français" },
+    { "locale": "ja", "label": "日本語", "name": "日本語" }
+  ],
+  "labels": {
+    "menu": "Menu",
+    "mainMenu": "Menu principal",
+    "language": "Langue"
+  },
+  "hero": {
+    "fr": {
+      "eyebrow": "Groupe d’expertise · CCE Japon",
+      "titleBefore": "À propos de ",
+      "titleAfter": "",
+      "missionButton": "Notre mission",
+      "publicationsButton": "Voir les publications",
+      "paragraphs": [
+        "Mieux Vivre en Ville est un groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, dédié aux enjeux urbains contemporains : urbanisme, mobilité, environnement et vie de quartier, en France et au Japon.",
+        "Appuyé par l’ambassade de France au Japon, le groupe réunit depuis 2013 ambassades, ministères, élus, entreprises privées, universitaires et ONG."
+      ]
+    },
+    "ja": {
+      "eyebrow": "CCE日本 · 専門家グループ",
+      "titleBefore": "",
+      "titleAfter": " について",
+      "missionButton": "私たちのミッション",
+      "publicationsButton": "出版物を見る",
+      "_todo": "Japanese translations for the hero paragraphs, featured publication, footer description, and accessible labels are missing from the prototypes."
+    },
+    "covers": [
+      "article-2026",
+      "journal-2025",
+      "revue-2024",
+      "revue-2023",
+      "rapport-2022",
+      "compilation-2021"
+    ],
+    "featured": {
+      "label": "Dernière publication",
+      "date": "Août 2026",
+      "title": "Territoires et énergie, un enjeu partagé",
+      "description": "Souveraineté, sobriété, recyclage : l’énergie vue par EDF et la Société Générale.",
+      "linkLabel": "Lire l’article"
+    }
+  },
+  "footer": "Groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, appuyé par l’ambassade de France au Japon."
+}
