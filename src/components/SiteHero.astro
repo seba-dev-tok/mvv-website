@@ -7,16 +7,15 @@ interface Props {
 
 const { locale } = Astro.props;
 const copy = site.hero[locale];
-const { paragraphs } = site.hero.fr;
-const { featured } = site.hero;
+const slides = site.hero.featured.map((slide) => slide[locale]);
 ---
 
 <section class="wrap hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <div class="eyebrow">{copy.eyebrow}</div>
     <h1 id="hero-title">{copy.titleBefore}<em lang="fr">{site.name}</em>{copy.titleAfter}</h1>
-    <p class="lead" lang="fr">{paragraphs[0]}</p>
-    <p lang="fr">{paragraphs[1]}</p>
+    <p class="lead">{copy.paragraphs[0]}</p>
+    <p>{copy.paragraphs[1]}</p>
     <div class="hero-actions">
       <span class="btn" role="link" aria-disabled="true">
         {copy.missionButton}
@@ -35,14 +34,46 @@ const { featured } = site.hero;
         ))}
       </div>
     </div>
-    <div class="featured" lang="fr">
-      <div class="featured-meta"><span>{featured.label}</span><b>{featured.date}</b></div>
-      <h2>{featured.title}</h2>
-      <p>{featured.description}</p>
-      <div class="featured-footer">
-        <span role="link" aria-disabled="true">{featured.linkLabel}</span>
-        <div class="featured-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="featured">
+      <div aria-live="polite">
+        {slides.map((slide, index) => (
+          <div data-featured-slide hidden={index !== 0}>
+            <div class="featured-meta"><span>{slide.label}</span><b>{slide.date}</b></div>
+            <h2>{slide.title}</h2>
+            <p>{slide.description}</p>
+            <div class="featured-footer">
+              {'linkLabel' in slide
+                ? <span role="link" aria-disabled="true">{slide.linkLabel}</span>
+                : <span class="featured-status">{slide.status}</span>}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div class="featured-dots" hidden>
+        {slides.map((slide, index) => (
+          <button type="button" aria-label={slide.title} aria-pressed={index === 0}></button>
+        ))}
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  const card = document.querySelector('.featured');
+  const controls = card?.querySelector<HTMLElement>('.featured-dots');
+
+  if (card && controls) {
+    const slides = card.querySelectorAll<HTMLElement>('[data-featured-slide]');
+    const buttons = controls.querySelectorAll('button');
+    controls.hidden = false;
+
+    buttons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        slides.forEach((slide, position) => { slide.hidden = position !== index; });
+        buttons.forEach((control, position) => {
+          control.setAttribute('aria-pressed', String(position === index));
+        });
+      });
+    });
+  }
+</script>
