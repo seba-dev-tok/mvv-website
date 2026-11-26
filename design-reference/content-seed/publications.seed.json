@@ -1,0 +1,208 @@
+[
+  {
+    "slug": "territoires-et-energie-un-enjeu-partage",
+    "year": 2026,
+    "type": "article",
+    "title_fr": "Territoires et énergie, un enjeu partagé",
+    "description_fr": "Souveraineté, sobriété, recyclage : l’énergie vue par EDF et la Société Générale.",
+    "pages": "5 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/e8dfba33-43de-42ad-98fb-1e93a641ef04/2026_article1_cover_aout.png",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "journal-2026-japonais",
+    "year": 2026,
+    "type": "revue",
+    "title_fr": "Journal 2026 (japonais)",
+    "description_fr": "Version japonaise du journal 2026.",
+    "pages": null,
+    "languages": [
+      "日本語"
+    ],
+    "cover_source_url": null,
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "journal-2025",
+    "year": 2025,
+    "type": "revue",
+    "title_fr": "Journal 2025",
+    "description_fr": "Bilan de douze ans : innovation, villes vertes, rénovation et nouveaux modèles économiques.",
+    "pages": null,
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/512051dd-5202-4a78-b055-337d7dba39d0/FR-2025_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "revue-2024",
+    "year": 2024,
+    "type": "revue",
+    "title_fr": "Revue 2024",
+    "description_fr": "Regards croisés France-Japon pour des villes « Smart & Sexy »",
+    "pages": "17 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/f0968412-4c5f-4493-8839-9bd922205289/FR-2024_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "revue-2023",
+    "year": 2023,
+    "type": "revue",
+    "title_fr": "Revue 2023",
+    "description_fr": "Bilan 2013-2023 : des villes post-carbone, inclusives et conviviales.",
+    "pages": "26 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/771a7e44-e83a-425f-81a1-194dc41b7c97/2023_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "rapport-2021-2022",
+    "year": 2022,
+    "type": "rapport",
+    "title_fr": "Rapport 2021-2022",
+    "description_fr": "Villes post-carbone, attractives et désirables : initiatives France-Japon.",
+    "pages": "17 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/86596c2f-4eeb-4a6f-908f-e6c794fa81ba/2022_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "mieux-construire-la-ville",
+    "year": 2022,
+    "type": "session",
+    "title_fr": "Mieux construire la ville",
+    "description_fr": "Bois, énergie et nouvelles méthodes de construction pour la ville bas carbone.",
+    "pages": "10 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/db4e411d-e5a1-48b7-90d6-2fda9390b9c4/FR-2022_2.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "mieux-respirer-en-ville",
+    "year": 2022,
+    "type": "session",
+    "title_fr": "Mieux respirer en ville",
+    "description_fr": "Végétal et zéro carbone : Bordeaux, Yokohama et Kitakyushu.",
+    "pages": "10 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/76021025-65bb-479a-8725-361ce1df965d/FR-2022_3.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "mieux-penser-la-ville",
+    "year": 2022,
+    "type": "session",
+    "title_fr": "Mieux penser la ville",
+    "description_fr": "Hydrogène, finance verte et tourisme décarboné, de Kobe à Hokkaido.",
+    "pages": "10 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/19624400-8f0a-4428-a1c7-6d40dd724a4d/FR-2022_4.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "compilation-2020-2021",
+    "year": 2021,
+    "type": "compilation",
+    "title_fr": "Compilation 2020-2021",
+    "description_fr": "Du cadre de vie à la mobilité : cinq thèmes, des initiatives France-Japon.",
+    "pages": null,
+    "languages": [
+      "FR"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/dea72318-9086-4b93-a42c-1314bc783bff/2021_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "rapport-2019",
+    "year": 2019,
+    "type": "rapport",
+    "title_fr": "Rapport 2019",
+    "description_fr": "Symposium France-Japon : smart cities, IA, IoT et partenariats public-privé.",
+    "pages": "6 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/8dcb3c3b-fab7-459a-a66f-700651bcc83b/2019_2.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "synthese-2017",
+    "year": 2017,
+    "type": "rapport",
+    "title_fr": "Synthèse 2017",
+    "description_fr": "2e symposium à Tokyo : 18 intervenants, 90 participants et quatre thèmes.",
+    "pages": "7 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/f7e386e6-0a9b-4a00-9c55-5c59c7ed43fb/2017_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  },
+  {
+    "slug": "synthese-2016",
+    "year": 2016,
+    "type": "rapport",
+    "title_fr": "Synthèse 2016",
+    "description_fr": "Symposium Smart City à Tokyo : santé, sécurité, énergie et dimension humaine.",
+    "pages": "2 p.",
+    "languages": [
+      "FR",
+      "日本語"
+    ],
+    "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/0aabdea4-b178-448c-996f-2d8f9ef164b2/2016_1.webp",
+    "pdf_fr": null,
+    "pdf_ja": null,
+    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
+  }
+]
