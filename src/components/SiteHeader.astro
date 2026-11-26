@@ -1,0 +1,53 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import site from '../content/site.json';
+import LanguageSwitch from './LanguageSwitch.astro';
+
+interface Props {
+  locale: 'fr' | 'ja';
+}
+
+const { locale } = Astro.props;
+const home = getRelativeLocaleUrl(locale);
+---
+
+<header class="logos">
+  <div class="side">
+    <a href={home}><img class="cce" src="/images/cce-japon.png" width="1000" height="386" alt={site.cceName} lang="fr" /></a>
+  </div>
+  <a href={home}><img class="mvv" src="/images/mvv.png" width="464" height="319" alt={site.name} lang="fr" /></a>
+  <div class="side right">
+    <LanguageSwitch locale={locale} />
+    <button class="burger" type="button" aria-label={site.labels.menu} aria-controls="menu" aria-expanded="false" lang="fr">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      </svg>
+    </button>
+  </div>
+</header>
+<nav class="menu" id="menu" aria-label={site.labels.mainMenu}>
+  {site.navigation.map((item) => <span class="menu-item" role="link" aria-disabled="true">{item[locale]}</span>)}
+  <div class="lang-mobile"><LanguageSwitch locale={locale} /></div>
+</nav>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.burger');
+  const menu = document.querySelector<HTMLElement>('#menu');
+
+  if (button && menu) {
+    const mobile = matchMedia('(width < 760px)');
+    const setOpen = (open: boolean) => {
+      button.setAttribute('aria-expanded', String(open));
+      menu.classList.toggle('open', open);
+    };
+
+    button.addEventListener('click', () => setOpen(button.getAttribute('aria-expanded') !== 'true'));
+    mobile.addEventListener('change', () => setOpen(false));
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        button.focus();
+      }
+    });
+  }
+</script>

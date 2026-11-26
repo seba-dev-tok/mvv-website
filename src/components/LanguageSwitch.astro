@@ -1,0 +1,22 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import site from '../content/site.json';
+
+interface Props {
+  locale: 'fr' | 'ja';
+}
+
+const { locale } = Astro.props;
+---
+
+<div class="lang" role="group" aria-label={site.labels.language}>
+  {site.languages.map((language) => (
+    <a
+      href={getRelativeLocaleUrl(language.locale)}
+      lang={language.locale}
+      hreflang={language.locale}
+      aria-label={language.name}
+      aria-current={language.locale === locale ? 'page' : undefined}
+    >{language.label}</a>
+  ))}
+</div>
