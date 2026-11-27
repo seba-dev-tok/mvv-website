@@ -4,7 +4,9 @@ Instructions for Codex (and any coding agent) working in this repository. Read t
 
 ## 1. Project in one paragraph
 
-Rebuild the website of **Mieux Vivre en Ville (MVV)**, a working group of the Conseillers du Commerce Extérieur de la France (CCE) Japan committee, supported by the French Embassy in Japan. The site is a **content site** (publications, events, committee, roadmap) that must look very attractive. It is bilingual: **French (default) and Japanese**. The owner is Sébastien Cardet (Tokyo); the editors are non-developers who will edit content only through **Pages CMS**.
+Rebuild the website of **Mieux Vivre en Ville (MVV)**, an expert group of the Conseillers du Commerce Extérieur de la France (CCE) Japan committee, supported by the French Embassy in Japan. The site is a **content site** (publications, events, committee, roadmap) that must look very attractive. It is bilingual: **French (default) and Japanese**. The owner is Sébastien Cardet (Tokyo); the editors are non-developers who will edit content only through **Pages CMS**.
+
+Refer to MVV as a **groupe d’expertise** in French and **専門家グループ** in Japanese throughout the site. Use **Avec le soutien de l’ambassade de France au Japon** for the French acknowledgement.
 
 ## 2. Stack and hard constraints
 

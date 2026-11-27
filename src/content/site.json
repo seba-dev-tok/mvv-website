@@ -25,8 +25,8 @@
       "missionButton": "Notre mission",
       "publicationsButton": "Voir les publications",
       "paragraphs": [
-        "Mieux Vivre en Ville est un groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, dédié aux enjeux urbains contemporains : urbanisme, mobilité, environnement et vie de quartier, en France et au Japon.",
-        "Appuyé par l’ambassade de France au Japon, le groupe réunit depuis 2013 ambassades, ministères, élus, entreprises privées, universitaires et ONG."
+        "Mieux Vivre en Ville est un groupe d’expertise du comité Japon des Conseillers du Commerce Extérieur de la France, dédié aux enjeux urbains contemporains : urbanisme, mobilité, environnement et vie de quartier, en France et au Japon.",
+        "Avec le soutien de l’ambassade de France au Japon, le groupe réunit depuis 2013 ambassades, ministères, élus, entreprises privées, universitaires et ONG."
       ]
     },
     "ja": {
@@ -36,7 +36,7 @@
       "missionButton": "私たちのミッション",
       "publicationsButton": "出版物を見る",
       "paragraphs": [
-        "Mieux Vivre en Villeは、フランス貿易顧問（CCE）日本委員会のワーキンググループです。日仏両国を対象に、都市計画、モビリティ、環境、地域の暮らしなど、現代の都市が抱える課題に取り組んでいます。",
+        "Mieux Vivre en Villeは、フランス貿易顧問（CCE）日本委員会の専門家グループです。日仏両国を対象に、都市計画、モビリティ、環境、地域の暮らしなど、現代の都市が抱える課題に取り組んでいます。",
         "在日フランス大使館の支援のもと、2013年から、大使館や省庁、公選職の代表者、民間企業、大学関係者、NGOがこのグループに集い、意見を交わしています。"
       ]
     },
@@ -49,5 +49,5 @@
       "compilation-2020-2021"
     ]
   },
-  "footer": {"fr": "Groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, appuyé par l’ambassade de France au Japon.", "ja": "Mieux Vivre en Villeは、在日フランス大使館の支援を受けて活動するフランス貿易顧問（CCE）日本委員会のワーキンググループです。"}
+  "footer": {"fr": "Groupe d’expertise du comité Japon des Conseillers du Commerce Extérieur de la France, avec le soutien de l’ambassade de France au Japon.", "ja": "Mieux Vivre en Villeは、在日フランス大使館の支援を受けて活動するフランス貿易顧問（CCE）日本委員会の専門家グループです。"}
 }
