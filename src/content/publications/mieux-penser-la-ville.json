@@ -1,0 +1,19 @@
+{
+  "year": 2022,
+  "type": "session",
+  "order": 8,
+  "fr": {
+    "title": "Mieux penser la ville",
+    "description": "Hydrogène, finance verte et tourisme décarboné, de Kobe à Hokkaido."
+  },
+  "ja": {
+    "title": "よりよい都市を考える",
+    "description": "神戸から北海道まで、水素、グリーンファイナンス、観光の脱炭素化。"
+  },
+  "pdf_fr": "/pdf/FR-2022_4.pdf",
+  "pdf_ja": "/pdf/JP_2022_4.pdf",
+  "pages_fr": 10,
+  "pages_ja": 10,
+  "cover": "/images/covers/mieux-penser-la-ville.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/19624400-8f0a-4428-a1c7-6d40dd724a4d/FR-2022_4.webp"
+}

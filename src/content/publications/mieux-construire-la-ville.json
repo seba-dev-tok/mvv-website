@@ -1,0 +1,19 @@
+{
+  "year": 2022,
+  "type": "session",
+  "order": 6,
+  "fr": {
+    "title": "Mieux construire la ville",
+    "description": "Bois, énergie et nouvelles méthodes de construction pour la ville bas carbone."
+  },
+  "ja": {
+    "title": "よりよい都市をつくる",
+    "description": "低炭素都市に向けた木材、エネルギー、新しい建設手法。"
+  },
+  "pdf_fr": "/pdf/FR-2022_2.pdf",
+  "pdf_ja": "/pdf/JP_2022_2.pdf",
+  "pages_fr": 10,
+  "pages_ja": 10,
+  "cover": "/images/covers/mieux-construire-la-ville.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/db4e411d-e5a1-48b7-90d6-2fda9390b9c4/FR-2022_2.webp"
+}

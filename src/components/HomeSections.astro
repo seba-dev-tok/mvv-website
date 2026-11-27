@@ -3,6 +3,7 @@ import mission from '../content/mission.json';
 import committee from '../content/committee.json';
 import roadmap from '../content/roadmap.json';
 import contact from '../content/contact.json';
+import Publications from './Publications.astro';
 import '../styles/home-sections.css';
 
 interface Props {
@@ -54,6 +55,8 @@ const roadmapCopy = roadmap[locale];
   </div>
 </section>
 
+<Publications locale={locale} />
+
 <section class="wrap home-section roadmap" id="roadmap" aria-labelledby="roadmap-title">
   <div class="eyebrow">{roadmap.label[locale]}</div>
   <h2 id="roadmap-title">{roadmapCopy.heading[0]}<em>{roadmapCopy.heading[1]}</em></h2>
@@ -66,7 +69,7 @@ const roadmapCopy = roadmap[locale];
         {card.topics && (
           <>
             <div class="roadmap-topics">{card.topics.map((topic) => <span>{topic}</span>)}</div>
-            <span class="roadmap-articles" role="link" aria-disabled="true">{card.articles}</span>
+            <a class="roadmap-articles" href="?type=article&amp;years=2026%2C2027#publications">{card.articles}</a>
           </>
         )}
         {card.parts && (

@@ -1,0 +1,72 @@
+{
+  "fr": {
+    "title": "Tous les documents publiés par Mieux Vivre en Ville",
+    "filters": {
+      "all": "Tous les documents",
+      "article": "Articles",
+      "revue": "Journaux et revues",
+      "rapport": "Rapports et synthèses",
+      "compilation": "Compilations",
+      "session": "Sessions"
+    },
+    "types": {
+      "article": "Article",
+      "revue": "Journal et revue",
+      "rapport": "Rapport et synthèse",
+      "compilation": "Compilation",
+      "session": "Session"
+    },
+    "count": "{count} document · langue du site : français",
+    "countPlural": "{count} documents · langue du site : français",
+    "years": "Années : 2026 · 2027",
+    "clearYears": "Supprimer le filtre Années",
+    "more": "Afficher les années précédentes",
+    "less": "Réduire la liste",
+    "read": "Lire",
+    "readFrench": "Lire (français)",
+    "frenchOnly": "Disponible en français uniquement",
+    "unavailable": "PDF indisponible",
+    "pages": "{count} p.",
+    "languageFr": "FR",
+    "languageJa": "日本語",
+    "pdf": "PDF",
+    "fine": "Les documents s’affichent selon la langue du site (FR / 日本語). En japonais, un document sans version japonaise reste listé avec la mention « disponible en français uniquement ».",
+    "pause": "Mettre le carrousel en pause",
+    "resume": "Reprendre le défilement du carrousel"
+  },
+  "ja": {
+    "title": "Mieux Vivre en Ville のすべての出版物",
+    "filters": {
+      "all": "すべての文書",
+      "article": "記事",
+      "revue": "ジャーナル・レビュー",
+      "rapport": "報告書・総括",
+      "compilation": "事例集",
+      "session": "セッション"
+    },
+    "types": {
+      "article": "記事",
+      "revue": "ジャーナル・レビュー",
+      "rapport": "報告書・総括",
+      "compilation": "事例集",
+      "session": "セッション"
+    },
+    "count": "{count}件 · サイト言語：日本語",
+    "countPlural": "{count}件 · サイト言語：日本語",
+    "years": "年：2026 · 2027",
+    "clearYears": "年の絞り込みを解除",
+    "more": "過去の出版物を表示",
+    "less": "一覧を閉じる",
+    "read": "読む",
+    "readFrench": "読む（フランス語）",
+    "frenchOnly": "日本語版はありません",
+    "unavailable": "PDF未公開",
+    "pages": "{count}ページ",
+    "languageFr": "フランス語",
+    "languageJa": "日本語",
+    "pdf": "PDF",
+    "fine": "文書はサイトの言語に合わせて表示されます。日本語版がない文書は、フランス語版のみである旨を添えて掲載します。",
+    "pause": "カルーセルを一時停止",
+    "resume": "カルーセルの自動切り替えを再開"
+  }
+}

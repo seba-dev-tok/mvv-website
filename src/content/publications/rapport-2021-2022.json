@@ -1,0 +1,19 @@
+{
+  "year": 2022,
+  "type": "rapport",
+  "order": 5,
+  "fr": {
+    "title": "Rapport 2021-2022",
+    "description": "Villes post-carbone, attractives et désirables : initiatives France-Japon."
+  },
+  "ja": {
+    "title": "2021〜2022年報告書",
+    "description": "脱炭素で魅力ある都市を目指す日仏の取り組み。"
+  },
+  "pdf_fr": "/pdf/2022_1.pdf",
+  "pdf_ja": "/pdf/JP_2022_1.pdf",
+  "pages_fr": 17,
+  "pages_ja": 17,
+  "cover": "/images/covers/rapport-2022.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/86596c2f-4eeb-4a6f-908f-e6c794fa81ba/2022_1.webp"
+}

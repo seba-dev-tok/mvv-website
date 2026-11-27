@@ -1,0 +1,19 @@
+{
+  "year": 2022,
+  "type": "session",
+  "order": 7,
+  "fr": {
+    "title": "Mieux respirer en ville",
+    "description": "Végétal et zéro carbone : Bordeaux, Yokohama et Kitakyushu."
+  },
+  "ja": {
+    "title": "都市で快適に呼吸する",
+    "description": "緑化と脱炭素：ボルドー、横浜、北九州の取り組み。"
+  },
+  "pdf_fr": "/pdf/FR-2022_3.pdf",
+  "pdf_ja": "/pdf/JP_2022_3.pdf",
+  "pages_fr": 10,
+  "pages_ja": 10,
+  "cover": "/images/covers/mieux-respirer-en-ville.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/76021025-65bb-479a-8725-361ce1df965d/FR-2022_3.webp"
+}

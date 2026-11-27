@@ -1,0 +1,20 @@
+{
+  "year": 2026,
+  "type": "revue",
+  "order": 1,
+  "fr": {
+    "title": "Journal 2026 (japonais)",
+    "description": "Version japonaise du journal 2026."
+  },
+  "ja": {
+    "title": "2026年版ジャーナル（日本語）",
+    "description": "2026年版ジャーナルの日本語版。"
+  },
+  "pdf_fr": null,
+  "pdf_ja": null,
+  "pages_fr": null,
+  "pages_ja": null,
+  "cover": null,
+  "cover_source_url": null,
+  "todo": "TODO: Add the 2026 journal PDF and cover after the correct edition is supplied."
+}

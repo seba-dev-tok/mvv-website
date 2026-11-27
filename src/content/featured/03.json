@@ -1,0 +1,18 @@
+{
+  "order": 2,
+  "fr": {
+    "label": "À paraître",
+    "date": "Janvier 2027",
+    "title": "Financer les infrastructures des villes intelligentes",
+    "description": "Un article sur le financement des infrastructures des Smart Cities.",
+    "status": "Bientôt disponible"
+  },
+  "ja": {
+    "label": "刊行予定",
+    "date": "2027年1月",
+    "title": "スマートシティのインフラ整備に向けた資金調達",
+    "description": "スマートシティのインフラ整備に必要な資金の調達について取り上げます。",
+    "status": "近日公開"
+  },
+  "todo": "TODO: Confirm the upcoming article title and description."
+}

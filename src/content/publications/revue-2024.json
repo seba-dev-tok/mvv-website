@@ -1,0 +1,19 @@
+{
+  "year": 2024,
+  "type": "revue",
+  "order": 3,
+  "fr": {
+    "title": "Revue 2024",
+    "description": "Regards croisés France-Japon pour des villes « Smart & Sexy »"
+  },
+  "ja": {
+    "title": "2024年版レビュー",
+    "description": "「スマートで魅力的な都市」をめぐる日仏の視点。"
+  },
+  "pdf_fr": "/pdf/FR-2024_1.pdf",
+  "pdf_ja": "/pdf/JP_2024_1.pdf",
+  "pages_fr": 17,
+  "pages_ja": 17,
+  "cover": "/images/covers/revue-2024.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/f0968412-4c5f-4493-8839-9bd922205289/FR-2024_1.webp"
+}

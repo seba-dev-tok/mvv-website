@@ -4,7 +4,7 @@
   "navigation": [
     { "href": "#mission", "available": true, "fr": "Notre mission", "ja": "私たちのミッション" },
     { "href": "#comite", "available": true, "fr": "Comité de pilotage", "ja": "運営委員会" },
-    { "href": "#publications", "available": false, "fr": "Publications", "ja": "出版物" },
+    { "href": "#publications", "available": true, "fr": "Publications", "ja": "出版物" },
     { "href": "actions/", "available": false, "fr": "Actions", "ja": "活動" },
     { "href": "#roadmap", "available": true, "fr": "Feuille de route 2026-2027", "ja": "2026-2027年ロードマップ" }
   ],
@@ -41,62 +41,12 @@
       ]
     },
     "covers": [
-      "article-2026",
+      "territoires-et-energie-un-enjeu-partage",
       "journal-2025",
       "revue-2024",
       "revue-2023",
-      "rapport-2022",
-      "compilation-2021"
-    ],
-    "featured": [
-      {
-        "fr": {
-          "label": "Dernière publication",
-          "date": "Août 2026",
-          "title": "Territoires et énergie, un enjeu partagé",
-          "description": "Souveraineté, sobriété, recyclage : l’énergie vue par EDF et la Société Générale.",
-          "linkLabel": "Lire l’article"
-        },
-        "ja": {
-          "label": "最新の刊行物",
-          "date": "2026年8月",
-          "title": "地域とエネルギー：共通の課題",
-          "description": "エネルギー主権、省エネルギー、リサイクル。EDFとソシエテ・ジェネラルが語るエネルギーの課題。",
-          "linkLabel": "記事を読む"
-        }
-      },
-      {
-        "fr": {
-          "label": "À paraître",
-          "date": "Décembre 2026",
-          "title": "Cybersécurité et villes intelligentes",
-          "description": "Un article sur les enjeux de cybersécurité des Smart Cities.",
-          "status": "Bientôt disponible"
-        },
-        "ja": {
-          "label": "刊行予定",
-          "date": "2026年12月",
-          "title": "サイバーセキュリティとスマートシティ",
-          "description": "スマートシティにおけるサイバーセキュリティの課題を取り上げます。",
-          "status": "近日公開"
-        }
-      },
-      {
-        "fr": {
-          "label": "À paraître",
-          "date": "Janvier 2027",
-          "title": "Financer les infrastructures des villes intelligentes",
-          "description": "Un article sur le financement des infrastructures des Smart Cities.",
-          "status": "Bientôt disponible"
-        },
-        "ja": {
-          "label": "刊行予定",
-          "date": "2027年1月",
-          "title": "スマートシティのインフラ整備に向けた資金調達",
-          "description": "スマートシティのインフラ整備に必要な資金の調達について取り上げます。",
-          "status": "近日公開"
-        }
-      }
+      "rapport-2021-2022",
+      "compilation-2020-2021"
     ]
   },
   "footer": {"fr": "Groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, appuyé par l’ambassade de France au Japon.", "ja": "Mieux Vivre en Villeは、在日フランス大使館の支援を受けて活動するフランス貿易顧問（CCE）日本委員会のワーキンググループです。"}
