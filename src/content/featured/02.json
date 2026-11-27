@@ -1,0 +1,18 @@
+{
+  "order": 1,
+  "fr": {
+    "label": "À paraître",
+    "date": "Décembre 2026",
+    "title": "Cybersécurité et villes intelligentes",
+    "description": "Un article sur les enjeux de cybersécurité des Smart Cities.",
+    "status": "Bientôt disponible"
+  },
+  "ja": {
+    "label": "刊行予定",
+    "date": "2026年12月",
+    "title": "サイバーセキュリティとスマートシティ",
+    "description": "スマートシティにおけるサイバーセキュリティの課題を取り上げます。",
+    "status": "近日公開"
+  },
+  "todo": "TODO: Confirm the upcoming article title and description."
+}

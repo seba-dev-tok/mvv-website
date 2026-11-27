@@ -1,0 +1,19 @@
+{
+  "year": 2016,
+  "type": "rapport",
+  "order": 12,
+  "fr": {
+    "title": "Synthèse 2016",
+    "description": "Symposium Smart City à Tokyo : santé, sécurité, énergie et dimension humaine."
+  },
+  "ja": {
+    "title": "2016年総括",
+    "description": "東京でのスマートシティ・シンポジウム：健康、安全、エネルギー、人を中心としたまちづくり。"
+  },
+  "pdf_fr": "/pdf/2016_1.pdf",
+  "pdf_ja": "/pdf/JP_2016_1.pdf",
+  "pages_fr": 2,
+  "pages_ja": 2,
+  "cover": "/images/covers/synthese-2016.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/0aabdea4-b178-448c-996f-2d8f9ef164b2/2016_1.webp"
+}

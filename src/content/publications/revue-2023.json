@@ -1,0 +1,19 @@
+{
+  "year": 2023,
+  "type": "revue",
+  "order": 4,
+  "fr": {
+    "title": "Revue 2023",
+    "description": "Bilan 2013-2023 : des villes post-carbone, inclusives et conviviales."
+  },
+  "ja": {
+    "title": "2023年版レビュー",
+    "description": "2013〜2023年の振り返り：脱炭素で、誰もが暮らしやすく、人々が交流できる都市。"
+  },
+  "pdf_fr": "/pdf/FR-2023_1.pdf",
+  "pdf_ja": "/pdf/JP_2023_1.pdf",
+  "pages_fr": 26,
+  "pages_ja": 14,
+  "cover": "/images/covers/revue-2023.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/771a7e44-e83a-425f-81a1-194dc41b7c97/2023_1.webp"
+}

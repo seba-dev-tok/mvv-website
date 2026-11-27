@@ -1,0 +1,19 @@
+{
+  "year": 2026,
+  "type": "article",
+  "order": 0,
+  "fr": {
+    "title": "Territoires et énergie, un enjeu partagé",
+    "description": "Souveraineté, sobriété, recyclage : l’énergie vue par EDF et la Société Générale."
+  },
+  "ja": {
+    "title": "地域とエネルギー：共通の課題",
+    "description": "エネルギー主権、省エネルギー、リサイクル。EDFとソシエテ・ジェネラルが語るエネルギーの課題。"
+  },
+  "pdf_fr": "/pdf/MVV_Article_082026_VALIDE.pdf",
+  "pdf_ja": "/pdf/JP_MVV_Article_082026_VALIDE.pdf",
+  "pages_fr": 5,
+  "pages_ja": 6,
+  "cover": "/images/covers/article-2026.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/e8dfba33-43de-42ad-98fb-1e93a641ef04/2026_article1_cover_aout.png"
+}

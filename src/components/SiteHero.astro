@@ -1,5 +1,7 @@
 ---
+import { getCollection, getEntry } from 'astro:content';
 import site from '../content/site.json';
+import ui from '../content/publication-ui.json';
 
 interface Props {
   locale: 'fr' | 'ja';
@@ -7,7 +9,20 @@ interface Props {
 
 const { locale } = Astro.props;
 const copy = site.hero[locale];
-const slides = site.hero.featured.map((slide) => slide[locale]);
+const publications = new Map((await getCollection('publications')).map(entry => [entry.id, entry.data]));
+const covers = site.hero.covers.map(id => {
+  const publication = publications.get(id);
+  if (!publication) throw new Error(`Unknown hero publication: ${id}`);
+  return publication.cover;
+});
+const entries = (await getCollection('featured')).sort((a, b) => a.data.order - b.data.order);
+const slides = await Promise.all(entries.map(async ({ data }) => {
+  if (!('publication' in data)) return data[locale];
+
+  const entry = await getEntry(data.publication);
+  if (!entry) throw new Error(`Unknown featured publication: ${data.publication.id}`);
+  return { ...data[locale], ...entry.data[locale], href: '#publications' };
+}));
 ---
 
 <section class="wrap hero" aria-labelledby="hero-title">
@@ -23,35 +38,39 @@ const slides = site.hero.featured.map((slide) => slide[locale]);
           <path d="M12 5v14M6 13l6 6 6-6" />
         </svg>
       </a>
-      <span class="btn outline" role="link" aria-disabled="true">{copy.publicationsButton}</span>
+      <a class="btn outline" href="#publications">{copy.publicationsButton}</a>
     </div>
   </div>
   <div class="arch">
     <div class="covers" aria-hidden="true">
       <div class="covers-grid">
-        {site.hero.covers.map((cover) => (
-          <div><img src={`/images/covers/${cover}.webp`} alt="" /></div>
+        {covers.map((cover) => (
+          <div>{cover && <img src={cover} alt="" decoding="async" />}</div>
         ))}
       </div>
     </div>
     <div class="featured">
-      <div aria-live="polite">
+      <div data-featured-content aria-live="off">
         {slides.map((slide, index) => (
           <div data-featured-slide hidden={index !== 0}>
             <div class="featured-meta"><span>{slide.label}</span><b>{slide.date}</b></div>
             <h2>{slide.title}</h2>
             <p>{slide.description}</p>
             <div class="featured-footer">
-              {'linkLabel' in slide
-                ? <span role="link" aria-disabled="true">{slide.linkLabel}</span>
+              {'href' in slide
+                ? <a class="featured-link" href={slide.href}>{slide.linkLabel}</a>
                 : <span class="featured-status">{slide.status}</span>}
             </div>
           </div>
         ))}
       </div>
       <div class="featured-dots" hidden>
+        <button class="featured-rotation" type="button" aria-label={ui[locale].pause} data-pause={ui[locale].pause} data-resume={ui[locale].resume}>
+          <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" class="pause-icon"><path d="M4 3h3v10H4zm5 0h3v10H9z" fill="currentColor" /></svg>
+          <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" class="play-icon"><path d="m5 3 8 5-8 5z" fill="currentColor" /></svg>
+        </button>
         {slides.map((slide, index) => (
-          <button type="button" aria-label={slide.title} aria-pressed={index === 0}></button>
+          <button class="featured-dot" type="button" aria-label={slide.title} aria-pressed={index === 0}></button>
         ))}
       </div>
     </div>
@@ -61,19 +80,64 @@ const slides = site.hero.featured.map((slide) => slide[locale]);
 <script>
   const card = document.querySelector('.featured');
   const controls = card?.querySelector<HTMLElement>('.featured-dots');
+  const rotation = controls?.querySelector<HTMLButtonElement>('.featured-rotation');
+  const content = card?.querySelector<HTMLElement>('[data-featured-content]');
 
-  if (card && controls) {
-    const slides = card.querySelectorAll<HTMLElement>('[data-featured-slide]');
-    const buttons = controls.querySelectorAll('button');
-    controls.hidden = false;
+  if (card && controls && rotation && content) {
+    const slides = [...content.querySelectorAll<HTMLElement>('[data-featured-slide]')];
+    const buttons = [...controls.querySelectorAll<HTMLButtonElement>('.featured-dot')];
+    const motion = matchMedia('(prefers-reduced-motion: reduce)');
+    let current = 0;
+    let paused = motion.matches;
+    let timer: number | undefined;
 
-    buttons.forEach((button, index) => {
-      button.addEventListener('click', () => {
-        slides.forEach((slide, position) => { slide.hidden = position !== index; });
-        buttons.forEach((control, position) => {
-          control.setAttribute('aria-pressed', String(position === index));
-        });
-      });
-    });
+    const select = (index: number) => {
+      current = index;
+      slides.forEach((slide, position) => { slide.hidden = position !== index; });
+      buttons.forEach((button, position) => button.setAttribute('aria-pressed', String(position === index)));
+    };
+
+    const schedule = () => {
+      window.clearTimeout(timer);
+      const running = !paused && !document.hidden && !card.matches(':hover, :focus-within');
+      content.setAttribute('aria-live', running ? 'off' : 'polite');
+      if (running) {
+        timer = window.setTimeout(() => {
+          select((current + 1) % slides.length);
+          schedule();
+        }, 5000);
+      }
+    };
+
+    const setPaused = (value: boolean) => {
+      paused = value;
+      rotation.classList.toggle('paused', paused);
+      rotation.setAttribute('aria-label', (paused ? rotation.dataset.resume : rotation.dataset.pause) ?? '');
+      schedule();
+    };
+
+    if (slides.length > 1) {
+      controls.hidden = false;
+      buttons.forEach((button, index) => button.addEventListener('click', () => {
+        select(index);
+        schedule();
+      }));
+      rotation.addEventListener('click', () => setPaused(!paused));
+      for (const event of ['pointerenter', 'pointerleave', 'focusin', 'focusout']) {
+        card.addEventListener(event, () => requestAnimationFrame(schedule));
+      }
+      motion.addEventListener('change', (event) => setPaused(event.matches));
+      document.addEventListener('visibilitychange', schedule);
+      setPaused(paused);
+    }
+  }
+
+  for (const image of document.querySelectorAll<HTMLImageElement>('.covers-grid img, .publication-cover img')) {
+    const fallback = () => {
+      image.parentElement?.classList.remove('has-image');
+      image.remove();
+    };
+    if (image.complete && !image.naturalWidth && image.currentSrc) fallback();
+    else image.addEventListener('error', fallback, { once: true });
   }
 </script>

@@ -1,0 +1,19 @@
+{
+  "year": 2025,
+  "type": "revue",
+  "order": 2,
+  "fr": {
+    "title": "Journal 2025",
+    "description": "Bilan de douze ans : innovation, villes vertes, rénovation et nouveaux modèles économiques."
+  },
+  "ja": {
+    "title": "2025年版ジャーナル",
+    "description": "12年間の振り返り：イノベーション、緑豊かな都市、改修、新しい経済モデル。"
+  },
+  "pdf_fr": "/pdf/2025_1.pdf",
+  "pdf_ja": "/pdf/JP_MVV_journal_2025J.pdf",
+  "pages_fr": 2,
+  "pages_ja": 2,
+  "cover": "/images/covers/journal-2025.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/512051dd-5202-4a78-b055-337d7dba39d0/FR-2025_1.webp"
+}

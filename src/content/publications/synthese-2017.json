@@ -1,0 +1,19 @@
+{
+  "year": 2017,
+  "type": "rapport",
+  "order": 11,
+  "fr": {
+    "title": "Synthèse 2017",
+    "description": "2e symposium à Tokyo : 18 intervenants, 90 participants et quatre thèmes."
+  },
+  "ja": {
+    "title": "2017年総括",
+    "description": "東京での第2回シンポジウム：登壇者18名、参加者90名、四つのテーマ。"
+  },
+  "pdf_fr": "/pdf/2017_1.pdf",
+  "pdf_ja": "/pdf/JP_2017_1.pdf",
+  "pages_fr": 7,
+  "pages_ja": 7,
+  "cover": "/images/covers/synthese-2017.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/f7e386e6-0a9b-4a00-9c55-5c59c7ed43fb/2017_1.webp"
+}

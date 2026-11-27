@@ -1,0 +1,19 @@
+{
+  "year": 2021,
+  "type": "compilation",
+  "order": 9,
+  "fr": {
+    "title": "Compilation 2020-2021",
+    "description": "Du cadre de vie à la mobilité : cinq thèmes, des initiatives France-Japon."
+  },
+  "ja": {
+    "title": "2020〜2021年事例集",
+    "description": "生活環境からモビリティまで、五つのテーマに沿った日仏の取り組み。"
+  },
+  "pdf_fr": "/pdf/2021_1_compressed.pdf",
+  "pdf_ja": null,
+  "pages_fr": 36,
+  "pages_ja": null,
+  "cover": "/images/covers/compilation-2021.webp",
+  "cover_source_url": "https://images.squarespace-cdn.com/content/v1/6a9a4a1e6772ad6bc4689f27/dea72318-9086-4b93-a42c-1314bc783bff/2021_1.webp"
+}
