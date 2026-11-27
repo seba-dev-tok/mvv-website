@@ -11,7 +11,7 @@ const { locale } = Astro.props;
 <footer class="footer">
   <div class="wrap footer-inner">
     <img src="/images/mvv-white.png" width="464" height="319" alt={site.name} lang="fr" loading="lazy" />
-    <div class="footer-copy" lang="fr">{site.footer}</div>
+    <div class="footer-copy">{site.footer[locale]}</div>
     <nav>
       {site.navigation.map((item) => item.available
         ? <a href={item.href}>{item[locale]}</a>

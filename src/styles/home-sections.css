@@ -136,6 +136,15 @@
 .contact-banner .btn:hover { background: var(--pale); }
 .contact-banner .btn:focus-visible { outline-color: #fff; }
 
+.mission-copy:lang(ja), .stats:lang(ja) span, .stat.formats:lang(ja), .stat.formats:lang(ja) small,
+.member-role:lang(ja), .member-company:lang(ja), .roadmap-cards:lang(ja),
+.roadmap-period:lang(ja), .roadmap-card h3:lang(ja), .roadmap-part b:lang(ja),
+.roadmap-schedule:lang(ja), .roadmap-timeline b:lang(ja),
+.contact-banner p:lang(ja), .contact-banner .btn:lang(ja) {
+  font-family: var(--japanese);
+}
+
+
 @media (width < 760px) {
   .home-section { padding-top: 56px; scroll-margin-top: 91px; }
   .home-section h2 { font-size: 32px; }

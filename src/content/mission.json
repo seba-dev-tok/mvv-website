@@ -3,31 +3,60 @@
     "fr": "Notre mission",
     "ja": "私たちのミッション"
   },
-  "heading": [
-    "Remettre l’humain au cœur de la réflexion sur ",
-    "les villes de demain."
-  ],
-  "paragraphs": [
-    "Depuis 2013, Mieux Vivre en Ville s’attache à définir les tendances et problématiques prioritaires des années à venir et à mieux partager les bonnes pratiques urbaines en France et au Japon, en vue d’œuvrer mondialement à des collaborations durables et fructueuses.",
-    "Notre ambition : participer à la recherche de solutions concrètes, reproductibles et originales pour tous les acteurs engagés dans l’amélioration de la vie urbaine."
-  ],
-  "statistics": [
-    {
-      "value": "86+",
-      "label": "témoignages issus de tous les horizons"
-    },
-    {
-      "value": "1 250+",
-      "label": "participants à nos événements"
-    },
-    {
-      "value": "244+",
-      "label": "pages publiées, en 10 ans"
-    }
-  ],
-  "formats": [
-    "SOUS DE MULTIPLES FORMATS",
-    "Grands symposiums, publications bilingues, sessions d’échange en ligne"
-  ],
-  "_todoJa": "TODO: Translate the heading, paragraphs, statistic labels and formats."
+  "fr": {
+    "heading": [
+      "Remettre l’humain au cœur de la réflexion sur ",
+      "les villes de demain."
+    ],
+    "paragraphs": [
+      "Depuis 2013, Mieux Vivre en Ville s’attache à définir les tendances et problématiques prioritaires des années à venir et à mieux partager les bonnes pratiques urbaines en France et au Japon, en vue d’œuvrer mondialement à des collaborations durables et fructueuses.",
+      "Notre ambition : participer à la recherche de solutions concrètes, reproductibles et originales pour tous les acteurs engagés dans l’amélioration de la vie urbaine."
+    ],
+    "statistics": [
+      {
+        "value": "86+",
+        "label": "témoignages issus de tous les horizons"
+      },
+      {
+        "value": "1 250+",
+        "label": "participants à nos événements"
+      },
+      {
+        "value": "244+",
+        "label": "pages publiées, en 10 ans"
+      }
+    ],
+    "formats": [
+      "SOUS DE MULTIPLES FORMATS",
+      "Grands symposiums, publications bilingues, sessions d’échange en ligne"
+    ]
+  },
+  "ja": {
+    "heading": [
+      "都市の未来を考えるとき、",
+      "人をもう一度その中心に。"
+    ],
+    "paragraphs": [
+      "Mieux Vivre en Villeは2013年から、今後の都市をめぐる動向と優先課題を見極め、フランスと日本の優れた取り組みを共有してきました。こうした活動を通じて、世界規模で持続的かつ実りある協力を育むことを目指しています。",
+      "私たちの目標は、都市の暮らしの向上に取り組むすべての人に向けて、具体的で、ほかの地域でも実践できる独創的な解決策を見いだすことです。"
+    ],
+    "statistics": [
+      {
+        "value": "86+",
+        "label": "さまざまな立場から寄せられた声"
+      },
+      {
+        "value": "1,250+",
+        "label": "イベントへの参加者"
+      },
+      {
+        "value": "244+",
+        "label": "10年間に刊行した資料のページ数"
+      }
+    ],
+    "formats": [
+      "多様な活動形式",
+      "大規模なシンポジウム、日仏二言語の刊行物、オンライン交流会"
+    ]
+  }
 }

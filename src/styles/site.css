@@ -263,6 +263,7 @@ img { max-width: 100%; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 36px 40px; justify-content: space-between; align-items: center; padding-block: 52px; }
 .footer img { width: auto; height: 88px; }
 .footer-copy { max-width: 420px; color: #d6e6cb; font: 15px/1.6 var(--body); }
+.footer-copy:lang(ja) { font-family: var(--japanese); }
 .footer nav { display: grid; gap: 8px; font-family: var(--heading); font-size: 18px; }
 .menu:lang(ja), .footer navbody:lang(ja) { font-family: var(--japanese); }
 

@@ -9,7 +9,7 @@ interface Props {
 const { locale } = Astro.props;
 ---
 
-<div class="lang" role="group" aria-label={site.labels.language}>
+<div class="lang" role="group" aria-label={site.labels.language[locale]}>
   {site.languages.map((language) => (
     <a
       href={getRelativeLocaleUrl(language.locale)}

@@ -13,19 +13,19 @@ const home = getRelativeLocaleUrl(locale);
 
 <header class="logos">
   <div class="side">
-    <a href={home}><img class="cce" src="/images/cce-japon.png" width="1000" height="386" alt={site.cceName} lang="fr" /></a>
+    <a href={home}><img class="cce" src="/images/cce-japon.png" width="1000" height="386" alt={site.cceName[locale]} /></a>
   </div>
   <a href={home}><img class="mvv" src="/images/mvv.png" width="464" height="319" alt={site.name} lang="fr" /></a>
   <div class="side right">
     <LanguageSwitch locale={locale} />
-    <button class="burger" type="button" aria-label={site.labels.menu} aria-controls="menu" aria-expanded="false" lang="fr">
+    <button class="burger" type="button" aria-label={site.labels.menu[locale]} aria-controls="menu" aria-expanded="false">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
         <path d="M4 7h16M4 12h16M4 17h16" />
       </svg>
     </button>
   </div>
 </header>
-<nav class="menu" id="menu" aria-label={site.labels.mainMenu}>
+<nav class="menu" id="menu" aria-label={site.labels.mainMenu[locale]}>
   {site.navigation.map((item) => item.available
     ? <a class="menu-item" href={item.href}>{item[locale]}</a>
     : <span class="menu-item" role="link" aria-disabled="true">{item[locale]}</span>)}

@@ -3,73 +3,144 @@
     "fr": "Feuille de route 2026-2027",
     "ja": "2026-2027年ロードマップ"
   },
-  "heading": [
-    "MVV 2026-2027 : une réflexion guidée par ",
-    "l’intelligence collective"
-  ],
-  "cards": [
-    {
-      "year": "2026",
-      "title": "Les Smart Cities observées sous de nouveaux angles",
-      "description": "En 2026, Mieux Vivre en Ville a ouvert un dialogue entre générations. De jeunes professionnels de sociétés françaises implantées au Japon ont interrogé des Conseillers du Commerce Extérieur de la France sur la ville intelligente, sous des angles variés. Les articles qui en sont issus sont publiés au fil de l’année sur ce site.",
-      "topics": [
-        "Cybersécurité",
-        "Financement",
-        "Énergie",
-        "Durabilité",
-        "Accès à l’eau et traitement"
-      ],
-      "articles": "Lire les articles"
-    },
-    {
-      "year": "2027",
-      "title": "Un livre blanc sur les Smart Cities au Japon",
-      "description": "Dans le prolongement de ce travail, MVV prépare un guide de référence pour comprendre qui fait quoi au Japon, avec quels moyens, et à qui s’adresser. Il mettra l’accent sur trois questions concrètes : les décideurs, les financements et les possibilités de coopération franco-japonaise.",
-      "partsLabel": "Le livre blanc s’organisera en trois volets :",
-      "parts": [
-        {
-          "title": "Une synthèse stratégique et pratique",
-          "description": "Défis urbains du Japon, politiques publiques, écosystème et opportunités de coopération"
-        },
-        {
-          "title": "Un dossier documentaire",
-          "description": "Grands domaines de transformation urbaine, principaux acteurs japonais et réalisations emblématiques"
-        },
-        {
-          "title": "Des outils pratiques",
-          "description": "Répertoire des acteurs, cartographie des programmes et financements, sources et méthodologie"
-        }
-      ],
-      "method": "Il s’appuiera sur la recherche documentaire, des entretiens, des questionnaires et des retours d’expérience de terrain."
-    },
-    {
-      "year": "Automne 2027",
-      "title": "Une table ronde franco-japonaise",
-      "description": "La publication sera présentée lors d’une table ronde réunissant des acteurs japonais clés de la ville de demain. Elle sera suivie d’un cocktail, pour prolonger les échanges."
-    }
-  ],
-  "timelineLabel": "De janvier à l’automne 2027",
-  "timeline": [
-    {
-      "period": "Janvier 2027",
-      "label": "Événement de lancement",
-      "highlighted": false
-    },
-    {
-      "period": "T1 – T2 2027",
-      "label": "Recherche et entretiens",
-      "highlighted": false
-    },
-    {
-      "period": "Été 2027",
-      "label": "Rédaction",
-      "highlighted": false
-    },
-    {
-      "period": "Automne 2027",
-      "label": "Publication et événement",
-      "highlighted": true
-    }
-  ],
-  "_todoJa": "TODO: Translate the heading, cards, article link and timeline."
+  "fr": {
+    "heading": [
+      "MVV 2026-2027 : une réflexion guidée par ",
+      "l’intelligence collective"
+    ],
+    "cards": [
+      {
+        "year": "2026",
+        "title": "Les Smart Cities observées sous de nouveaux angles",
+        "description": "En 2026, Mieux Vivre en Ville a ouvert un dialogue entre générations. De jeunes professionnels de sociétés françaises implantées au Japon ont interrogé des Conseillers du Commerce Extérieur de la France sur la ville intelligente, sous des angles variés. Les articles qui en sont issus sont publiés au fil de l’année sur ce site.",
+        "topics": [
+          "Cybersécurité",
+          "Financement",
+          "Énergie",
+          "Durabilité",
+          "Accès à l’eau et traitement"
+        ],
+        "articles": "Lire les articles"
+      },
+      {
+        "year": "2027",
+        "title": "Un livre blanc sur les Smart Cities au Japon",
+        "description": "Dans le prolongement de ce travail, MVV prépare un guide de référence pour comprendre qui fait quoi au Japon, avec quels moyens, et à qui s’adresser. Il mettra l’accent sur trois questions concrètes : les décideurs, les financements et les possibilités de coopération franco-japonaise.",
+        "partsLabel": "Le livre blanc s’organisera en trois volets :",
+        "parts": [
+          {
+            "title": "Une synthèse stratégique et pratique",
+            "description": "Défis urbains du Japon, politiques publiques, écosystème et opportunités de coopération"
+          },
+          {
+            "title": "Un dossier documentaire",
+            "description": "Grands domaines de transformation urbaine, principaux acteurs japonais et réalisations emblématiques"
+          },
+          {
+            "title": "Des outils pratiques",
+            "description": "Répertoire des acteurs, cartographie des programmes et financements, sources et méthodologie"
+          }
+        ],
+        "method": "Il s’appuiera sur la recherche documentaire, des entretiens, des questionnaires et des retours d’expérience de terrain."
+      },
+      {
+        "year": "Automne 2027",
+        "title": "Une table ronde franco-japonaise",
+        "description": "La publication sera présentée lors d’une table ronde réunissant des acteurs japonais clés de la ville de demain. Elle sera suivie d’un cocktail, pour prolonger les échanges."
+      }
+    ],
+    "timelineLabel": "De janvier à l’automne 2027",
+    "timeline": [
+      {
+        "period": "Janvier 2027",
+        "label": "Événement de lancement",
+        "highlighted": false
+      },
+      {
+        "period": "T1 – T2 2027",
+        "label": "Recherche et entretiens",
+        "highlighted": false
+      },
+      {
+        "period": "Été 2027",
+        "label": "Rédaction",
+        "highlighted": false
+      },
+      {
+        "period": "Automne 2027",
+        "label": "Publication et événement",
+        "highlighted": true
+      }
+    ]
+  },
+  "ja": {
+    "heading": [
+      "MVV 2026–2027：",
+      "みんなの知恵を生かして考える"
+    ],
+    "cards": [
+      {
+        "year": "2026年",
+        "title": "新たな視点で見つめるスマートシティ",
+        "description": "2026年、Mieux Vivre en Villeは世代を超えた対話を始めました。在日フランス企業の若手社員がフランス貿易顧問（CCE）にインタビューし、スマートシティについてさまざまな角度から話を聞きました。その内容をまとめた記事を、年内にこのサイトで順次公開します。",
+        "topics": [
+          "サイバーセキュリティ",
+          "資金調達",
+          "エネルギー",
+          "持続可能性",
+          "水へのアクセスと水処理"
+        ],
+        "articles": "記事を読む"
+      },
+      {
+        "year": "2027年",
+        "title": "日本のスマートシティに関する白書",
+        "description": "これまでの取り組みを踏まえ、MVVは、日本で誰が何に取り組み、どのような手段を活用し、どこに相談すればよいかを把握できるガイドを作成しています。意思決定者、資金調達、日仏協力の可能性という三つの具体的なテーマに焦点を当てます。",
+        "partsLabel": "白書は次の三部で構成します。",
+        "parts": [
+          {
+            "title": "戦略と実践の要点",
+            "description": "日本の都市課題、公共政策、関係者を取り巻く環境、協力の機会"
+          },
+          {
+            "title": "参考資料",
+            "description": "都市の変革が進む主な分野、日本の主要な関係者、代表的な事例"
+          },
+          {
+            "title": "実務に役立つツール",
+            "description": "関係者一覧、事業・資金調達制度の整理、出典と調査方法"
+          }
+        ],
+        "method": "文献調査、インタビュー、アンケート、現場で得られた知見をもとに作成します。"
+      },
+      {
+        "year": "2027年秋",
+        "title": "日仏ラウンドテーブル",
+        "description": "日本で未来の都市づくりに携わる主要な関係者を招いたラウンドテーブルで、白書を紹介します。その後、交流を深める懇親会を開きます。"
+      }
+    ],
+    "timelineLabel": "2027年1月から秋まで",
+    "timeline": [
+      {
+        "period": "2027年1月",
+        "label": "キックオフイベント",
+        "highlighted": false
+      },
+      {
+        "period": "2027年第1〜第2四半期",
+        "label": "調査とインタビュー",
+        "highlighted": false
+      },
+      {
+        "period": "2027年夏",
+        "label": "執筆",
+        "highlighted": false
+      },
+      {
+        "period": "2027年秋",
+        "label": "白書の公開とイベント",
+        "highlighted": true
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "Mieux Vivre en Ville",
-  "cceName": "Les Conseillers du Commerce Extérieur de la France — Japon",
+  "cceName": {"fr": "Les Conseillers du Commerce Extérieur de la France — Japon", "ja": "フランス貿易顧問（CCE）日本委員会"},
   "navigation": [
     { "href": "#mission", "available": true, "fr": "Notre mission", "ja": "私たちのミッション" },
     { "href": "#comite", "available": true, "fr": "Comité de pilotage", "ja": "運営委員会" },
@@ -13,9 +13,9 @@
     { "locale": "ja", "label": "日本語", "name": "日本語" }
   ],
   "labels": {
-    "menu": "Menu",
-    "mainMenu": "Menu principal",
-    "language": "Langue"
+    "menu": {"fr": "Menu", "ja": "メニュー"},
+    "mainMenu": {"fr": "Menu principal", "ja": "メインメニュー"},
+    "language": {"fr": "Langue", "ja": "言語"}
   },
   "hero": {
     "fr": {
@@ -35,7 +35,6 @@
       "titleAfter": " について",
       "missionButton": "私たちのミッション",
       "publicationsButton": "出版物を見る",
-      "_todo": "Japanese translations for the footer description and site navigation accessibility labels are missing from the prototypes.",
       "paragraphs": [
         "Mieux Vivre en Villeは、フランス貿易顧問（CCE）日本委員会のワーキンググループです。日仏両国を対象に、都市計画、モビリティ、環境、地域の暮らしなど、現代の都市が抱える課題に取り組んでいます。",
         "在日フランス大使館の支援のもと、2013年から、大使館や省庁、公選職の代表者、民間企業、大学関係者、NGOがこのグループに集い、意見を交わしています。"
@@ -100,5 +99,5 @@
       }
     ]
   },
-  "footer": "Groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, appuyé par l’ambassade de France au Japon."
+  "footer": {"fr": "Groupe de travail du comité Japon des Conseillers du Commerce Extérieur de la France, appuyé par l’ambassade de France au Japon.", "ja": "Mieux Vivre en Villeは、在日フランス大使館の支援を受けて活動するフランス貿易顧問（CCE）日本委員会のワーキンググループです。"}
 }
