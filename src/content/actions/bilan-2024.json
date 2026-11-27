@@ -115,11 +115,7 @@
             "ja": "東京大学"
           }
         }
-      ],
-      "report": {
-        "fr": null,
-        "ja": null
-      }
+      ]
     },
     {
       "label": {
@@ -198,11 +194,7 @@
             "ja": "都市デザイナー"
           }
         }
-      ],
-      "report": {
-        "fr": null,
-        "ja": null
-      }
+      ]
     },
     {
       "label": {
@@ -267,11 +259,7 @@
             "ja": "フランス貿易顧問 UAE委員会"
           }
         }
-      ],
-      "report": {
-        "fr": null,
-        "ja": null
-      }
+      ]
     },
     {
       "label": {
@@ -308,29 +296,11 @@
             "ja": "公使参事官、日本・韓国地域経済部長"
           }
         }
-      ],
-      "report": {
-        "fr": null,
-        "ja": null
-      }
+      ]
     }
   ],
   "pdf": {
     "fr": "/pdf/2024_2.pdf",
     "ja": "/pdf/JP_2024_2.pdf"
-  },
-  "reportLabels": {
-    "read": {
-      "fr": "Lire le rapport de la session",
-      "ja": "セッションの報告書を読む"
-    },
-    "readFrench": {
-      "fr": "Lire le rapport de la session (en français)",
-      "ja": "セッションの報告書を読む（フランス語）"
-    },
-    "unavailable": {
-      "fr": "Rapport de la session indisponible",
-      "ja": "セッションの報告書は未公開です"
-    }
   }
 }

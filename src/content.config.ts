@@ -87,12 +87,10 @@ const actions = defineCollection({
       opening: z.object({ label: copy, description: copy }),
       sessionsLabel: copy,
       speakersLabel: copy,
-      reportLabels: z.object({ read: copy, readFrench: copy, unavailable: copy }),
       sessions: z.array(z.object({
         label: copy,
         title: copy,
         description: copy,
-        report: z.object(localized(pdf)),
         speakers: z.array(z.object({ name: text, role: copy })).min(1),
       })).length(4),
       pdf: eventPdfs,
