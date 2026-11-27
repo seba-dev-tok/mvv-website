@@ -1,0 +1,69 @@
+{
+  "label": {
+    "fr": "Comité de pilotage",
+    "ja": "運営委員会"
+  },
+  "heading": {
+    "fr": "Celles et ceux qui animent la démarche",
+    "ja": "活動を牽引するメンバー"
+  },
+  "highlight": {
+    "fr": "Pilote du comité",
+    "ja": "委員会リーダー"
+  },
+  "members": [
+    {
+      "name": "Maïa Maniglier",
+      "role": "Présidente",
+      "company": "Exprime Inc.",
+      "photo": "/images/committee/maia.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": true,
+      "linkedin": null,
+      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Ma%C3%AFa%20Maniglier%20Exprime",
+      "linkedinLabel": "Maïa Maniglier sur LinkedIn",
+      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+    },
+    {
+      "name": "Isabelle Senghor",
+      "role": "Représentante générale",
+      "company": "EDF Japon",
+      "photo": "/images/committee/isabelle.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": null,
+      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Isabelle%20Senghor%20EDF%20Japon",
+      "linkedinLabel": "Isabelle Senghor sur LinkedIn",
+      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+    },
+    {
+      "name": "Sébastien Cardet",
+      "role": "Vice-président, Conseil et Services",
+      "company": "Dassault Systèmes Japon",
+      "photo": "/images/committee/sebastien.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": null,
+      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=S%C3%A9bastien%20Cardet%20Dassault%20Syst%C3%A8mes",
+      "linkedinLabel": "Sébastien Cardet sur LinkedIn",
+      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+    },
+    {
+      "name": "Benjamin Lamberg",
+      "role": "Senior Country Officer",
+      "company": "Groupe Crédit Agricole Japon",
+      "photo": "/images/committee/benjamin.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": null,
+      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Benjamin%20Lamberg%20Cr%C3%A9dit%20Agricole%20Japon",
+      "linkedinLabel": "Benjamin Lamberg sur LinkedIn",
+      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+    }
+  ],
+  "_todoJa": "TODO: Translate member roles, company labels and LinkedIn accessibility labels."
+}
