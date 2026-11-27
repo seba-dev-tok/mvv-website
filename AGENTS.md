@@ -66,6 +66,8 @@ One page per language with anchor sections, plus an Actions page:
 
 Astro i18n: locales `['fr', 'ja']`, default `fr`, URLs prefixed (`/fr/`, `/ja/`). Provide `hreflang` alternates and a language switch that keeps the current page.
 
+Translate all site copy, including accessibility labels, into Japanese during implementation whenever a prototype supplies it only in French. Store both versions in `src/content/` and render the selected language at build time. Preserve proper names and original publication artwork as appropriate. The publication PDF fallback below still applies.
+
 ## 5. Sections and behaviours
 
 ### Hero
