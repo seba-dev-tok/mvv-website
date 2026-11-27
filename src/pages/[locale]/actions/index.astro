@@ -66,6 +66,7 @@ const home = getRelativeLocaleUrl(locale);
     <ActionSessions
       locale={locale}
       sessions={bilan.sessions}
+      reportLabels={bilan.reportLabels}
       label={bilan.sessionsLabel[locale]}
       speakersLabel={bilan.speakersLabel[locale]}
       program={{ href: bilan.pdf[locale], label: links.program[locale] }}
