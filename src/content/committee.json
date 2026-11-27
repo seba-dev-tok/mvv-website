@@ -20,10 +20,8 @@
       "width": 440,
       "height": 440,
       "highlighted": true,
-      "linkedin": null,
-      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Ma%C3%AFa%20Maniglier%20Exprime",
-      "linkedinLabel": "Maïa Maniglier sur LinkedIn",
-      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+      "linkedin": "https://www.linkedin.com/in/maiamaniglier/",
+      "linkedinLabel": "Maïa Maniglier sur LinkedIn"
     },
     {
       "name": "Isabelle Senghor",
@@ -33,10 +31,8 @@
       "width": 440,
       "height": 440,
       "highlighted": false,
-      "linkedin": null,
-      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Isabelle%20Senghor%20EDF%20Japon",
-      "linkedinLabel": "Isabelle Senghor sur LinkedIn",
-      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+      "linkedin": "https://www.linkedin.com/in/senghor-isabelle-a21950175/",
+      "linkedinLabel": "Isabelle Senghor sur LinkedIn"
     },
     {
       "name": "Sébastien Cardet",
@@ -46,10 +42,8 @@
       "width": 440,
       "height": 440,
       "highlighted": false,
-      "linkedin": null,
-      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=S%C3%A9bastien%20Cardet%20Dassault%20Syst%C3%A8mes",
-      "linkedinLabel": "Sébastien Cardet sur LinkedIn",
-      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+      "linkedin": "https://www.linkedin.com/in/sebastien-cardet-5108692/",
+      "linkedinLabel": "Sébastien Cardet sur LinkedIn"
     },
     {
       "name": "Benjamin Lamberg",
@@ -59,10 +53,8 @@
       "width": 440,
       "height": 440,
       "highlighted": false,
-      "linkedin": null,
-      "linkedinSearch": "https://www.linkedin.com/search/results/people/?keywords=Benjamin%20Lamberg%20Cr%C3%A9dit%20Agricole%20Japon",
-      "linkedinLabel": "Benjamin Lamberg sur LinkedIn",
-      "_todoLinkedIn": "TODO: Replace the prototype search with the official profile URL."
+      "linkedin": "https://www.linkedin.com/in/benjamin-lamberg-b384bb/",
+      "linkedinLabel": "Benjamin Lamberg sur LinkedIn"
     }
   ],
   "_todoJa": "TODO: Translate member roles, company labels and LinkedIn accessibility labels."

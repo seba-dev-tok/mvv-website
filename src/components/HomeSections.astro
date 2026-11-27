@@ -35,7 +35,7 @@ const { locale } = Astro.props;
     {committee.members.map((member) => (
       <a
         class:list={['member', { highlighted: member.highlighted }]}
-        href={member.linkedin ?? member.linkedinSearch}
+        href={member.linkedin}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={member.linkedinLabel}
