@@ -1,0 +1,105 @@
+{
+  "kind": "page",
+  "title": {
+    "fr": "Actions",
+    "ja": "活動"
+  },
+  "hero": {
+    "eyebrow": {
+      "fr": "Actions · depuis 2013",
+      "ja": "活動 · 2013年から"
+    },
+    "title": {
+      "fr": [
+        "Treize ans de rencontres pour ",
+        "mieux vivre en ville"
+      ],
+      "ja": [
+        "13年にわたる交流から考える、",
+        "よりよい都市の暮らし"
+      ]
+    },
+    "description": {
+      "fr": "Depuis 2013, Mieux Vivre en Ville place les habitants au centre de la réflexion sur les villes de demain. Symposiums, séminaires et sessions en ligne : revivez chaque édition.",
+      "ja": "Mieux Vivre en Villeは2013年から、未来の都市を考えるうえで住民を中心に据えてきました。シンポジウム、セミナー、オンライン交流会の各回を振り返ります。"
+    },
+    "photo": {
+      "src": "/images/actions/symposium.webp",
+      "alt": {
+        "fr": "Symposium MVV",
+        "ja": "MVVシンポジウム"
+      },
+      "width": 783,
+      "height": 462
+    },
+    "statistics": [
+      {
+        "value": "115",
+        "label": {
+          "fr": "intervenants depuis 2013",
+          "ja": "2013年以降の登壇者"
+        }
+      },
+      {
+        "value": "1 900",
+        "label": {
+          "fr": "participants depuis 2013",
+          "ja": "2013年以降の参加者"
+        }
+      }
+    ]
+  },
+  "jump": {
+    "label": {
+      "fr": "Aller à",
+      "ja": "各回へ移動"
+    },
+    "items": [
+      {
+        "id": "e2025",
+        "label": {
+          "fr": "2025 · Osaka",
+          "ja": "2025年 · 大阪"
+        }
+      },
+      {
+        "id": "e2024",
+        "label": {
+          "fr": "2024 · Université de Tokyo",
+          "ja": "2024年 · 東京大学"
+        }
+      },
+      {
+        "id": "editions",
+        "label": {
+          "fr": "2023 à 2016",
+          "ja": "2023年から2016年まで"
+        }
+      }
+    ]
+  },
+  "earlier": {
+    "eyebrow": {
+      "fr": "Les éditions précédentes",
+      "ja": "過去の開催回"
+    },
+    "title": {
+      "fr": "De 2023 à 2016 : symposium, séminaires et sessions en ligne",
+      "ja": "2023年から2016年まで：シンポジウム、セミナー、オンライン交流会"
+    },
+    "note": {
+      "fr": "Cette page ne présente que les événements. Les documents (revues, rapports, synthèses, compilations) sont regroupés dans Publications.",
+      "ja": "このページではイベントを紹介しています。レビュー、報告書、総括、事例集などの資料は「出版物」に掲載しています。"
+    }
+  },
+  "links": {
+    "program": {
+      "fr": "Lire le programme",
+      "ja": "プログラムを読む"
+    },
+    "review": {
+      "fr": "Lire la revue 2022",
+      "ja": "2022年版レビューを読む"
+    }
+  }
+}

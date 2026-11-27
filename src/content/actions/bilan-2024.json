@@ -1,0 +1,306 @@
+{
+  "kind": "bilan-2024",
+  "eyebrow": {
+    "fr": "12 juin 2024 · Université de Tokyo, en direct avec l’INALCO à Paris",
+    "ja": "2024年6月12日 · 東京大学とパリのINALCOをライブ中継で接続"
+  },
+  "title": {
+    "fr": [
+      "Bilan MVV 2024 : ",
+      "Pour des villes Smart & Sexy, une nouvelle conception de la durabilité"
+    ],
+    "ja": [
+      "MVV 2024の振り返り：",
+      "スマートで魅力的な都市へ、持続可能性を捉え直す"
+    ]
+  },
+  "summary": {
+    "fr": [
+      "Avec le soutien de l’ambassade de France au Japon, l’édition 2024, à l’initiative du CCE-Japon et coorganisée avec l’Université de Tokyo, a donné la parole à de grands témoins et aux acteurs du « Mieux vivre en ville » au quotidien, en France et au Japon. Leurs expériences originales, dans les deux pays et au-delà, ont dévoilé le visage innovant et inspirant de projets de villes durables, qui mobilisent des savoir-faire souvent inédits et une forte dose d’intelligence collective.",
+      "De ces regards croisés France-Japon ont émergé des pistes et des complémentarités nouvelles pour imaginer de nouvelles « harmonies » au service des villes de demain : animer les espaces, mieux se déplacer, mieux se retrouver et, plus largement, faire évoluer nos lieux de vie partagés au bénéfice du plus grand nombre."
+    ],
+    "ja": [
+      "CCE日本委員会が企画し、東京大学と共催した2024年の催しは、在日フランス大使館の支援を受けて開催されました。日仏で都市の暮らしを日々支える実践者や有識者が、両国や世界各地の事例を紹介しました。独自の知見と集合知を生かした、革新的で示唆に富む持続可能な都市の取り組みが共有されました。",
+      "日仏の視点を交わすなかで、未来の都市に新たな調和を生み出す手がかりと、互いの強みを生かす可能性が見えてきました。空間に活気を生み、移動しやすくし、人と人が出会いやすくする。そして、より多くの人のために、共に暮らす場所を変えていくことがテーマとなりました。"
+    ]
+  },
+  "statistics": [
+    {
+      "value": "300",
+      "label": {
+        "fr": "personnes sur place",
+        "ja": "会場参加者"
+      }
+    },
+    {
+      "value": "200",
+      "label": {
+        "fr": "personnes en ligne",
+        "ja": "オンライン参加者"
+      }
+    },
+    {
+      "value": "28",
+      "label": {
+        "fr": "initiatives présentées",
+        "ja": "紹介された取り組み"
+      }
+    }
+  ],
+  "opening": {
+    "label": {
+      "fr": "OUVERTURE",
+      "ja": "開会挨拶"
+    },
+    "description": {
+      "fr": "Philippe Setton, ambassadeur de France au Japon, et Takumi Moriyama, vice-président de l’Université de Tokyo",
+      "ja": "フィリップ・セトン駐日フランス大使、東京大学の森山工副学長"
+    }
+  },
+  "sessionsLabel": {
+    "fr": "Les quatre sessions",
+    "ja": "四つのセッション"
+  },
+  "speakersLabel": {
+    "fr": "Intervenants",
+    "ja": "登壇者"
+  },
+  "sessions": [
+    {
+      "label": {
+        "fr": "Session 1",
+        "ja": "セッション1"
+      },
+      "title": {
+        "fr": "Intelligences collectives et complémentarités internationales",
+        "ja": "集合知と国際的な補完関係"
+      },
+      "description": {
+        "fr": "La notion de durabilité englobe de nos jours les aspects économiques, démographiques autant qu’écologiques. Imaginer des réponses innovantes à la complexe trame du futur de nos villes requiert de faire appel à l’intelligence collective et de mettre à profit nos complémentarités internationales.",
+        "ja": "今日の持続可能性には、環境だけでなく、経済や人口動態の側面も含まれます。都市の未来をめぐる複雑な課題に革新的な解決策を見いだすには、集合知を活用し、国の違いを越えて互いの強みを生かすことが求められます。"
+      },
+      "speakers": [
+        {
+          "name": "Kota Machida",
+          "role": {
+            "fr": "Université de Tokyo",
+            "ja": "東京大学"
+          }
+        },
+        {
+          "name": "Virginie Sandilya",
+          "role": {
+            "fr": "Shizen Energy",
+            "ja": "自然電力"
+          }
+        },
+        {
+          "name": "Denis Musard",
+          "role": {
+            "fr": "Cerema",
+            "ja": "Cerema"
+          }
+        },
+        {
+          "name": "Ken Hasebe",
+          "role": {
+            "fr": "Maire de Shibuya",
+            "ja": "渋谷区長"
+          }
+        },
+        {
+          "name": "Gentiane Venture",
+          "role": {
+            "fr": "Université de Tokyo",
+            "ja": "東京大学"
+          }
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Session 2",
+        "ja": "セッション2"
+      },
+      "title": {
+        "fr": "Le partage des espaces publics",
+        "ja": "公共空間の共有"
+      },
+      "description": {
+        "fr": "La vie en ville est une leçon d’acceptation tant les espaces doivent être pensés pour un nombre croissant de besoins divers : santé, sécurité, beauté, attractivité, efficacité, etc. Comment mettre en commun nos espaces communs ?",
+        "ja": "都市で暮らすことは、互いの違いを受け入れることを学ぶ機会です。健康、安全、美しさ、魅力、効率性など、多様化するニーズに応える空間が求められるなか、私たちは公共空間をどう共有できるのでしょうか。"
+      },
+      "speakers": [
+        {
+          "name": "Matthieu Gobbi",
+          "role": {
+            "fr": "Aerophile",
+            "ja": "Aerophile"
+          }
+        },
+        {
+          "name": "Shuichiro Kimura",
+          "role": {
+            "fr": "Chargé de cours",
+            "ja": "講師"
+          }
+        },
+        {
+          "name": "Rémi Daudin",
+          "role": {
+            "fr": "Materi’act",
+            "ja": "Materi’act"
+          }
+        },
+        {
+          "name": "Catherine Jegat",
+          "role": {
+            "fr": "Déléguée générale de l’Association Nationale pour l’amélioration de la Vue",
+            "ja": "フランス国立視覚改善協会 総代表"
+          }
+        },
+        {
+          "name": "Dany Joly",
+          "role": {
+            "fr": "Nantes Métropole",
+            "ja": "ナント・メトロポール"
+          }
+        },
+        {
+          "name": "Pierre-Emmanuel Marais",
+          "role": {
+            "fr": "Adjoint à la Maire de Nantes",
+            "ja": "ナント市副市長"
+          }
+        },
+        {
+          "name": "Nicolas Baillon",
+          "role": {
+            "fr": "Hydrostadium",
+            "ja": "Hydrostadium"
+          }
+        },
+        {
+          "name": "Michel Heinrich",
+          "role": {
+            "fr": "Président de la communauté d’agglomération d’Épinal",
+            "ja": "エピナル都市圏共同体会長"
+          }
+        },
+        {
+          "name": "Patrick Jouin",
+          "role": {
+            "fr": "Designer urbain",
+            "ja": "都市デザイナー"
+          }
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Session 3",
+        "ja": "セッション3"
+      },
+      "title": {
+        "fr": "« Smart & Sexy » dans toute sa diversité",
+        "ja": "多様性の中の「スマートで魅力的な都市」"
+      },
+      "description": {
+        "fr": "Nos langues, nos environnements, nos cultures construisent nos particularités et nos complémentarités. Le mondialisme doit devenir un facteur de paix et de progrès, car Mieux Vivre en Ville est aussi Mieux Vivre Ensemble.",
+        "ja": "言語、環境、文化の違いが、私たちそれぞれの個性と互いを補い合える強みを形づくります。国際化を平和と進歩につなげることが大切です。都市でよりよく暮らすことは、共によりよく生きることでもあります。"
+      },
+      "speakers": [
+        {
+          "name": "Julia Cornalba",
+          "role": {
+            "fr": "Inalco",
+            "ja": "フランス国立東洋言語文化学院（INALCO）"
+          }
+        },
+        {
+          "name": "Takashi Oshima",
+          "role": {
+            "fr": "Asahi Shimbun",
+            "ja": "朝日新聞"
+          }
+        },
+        {
+          "name": "Léo Valls",
+          "role": {
+            "fr": "Skateur professionnel",
+            "ja": "プロスケートボーダー"
+          }
+        },
+        {
+          "name": "Lucas Lopes",
+          "role": {
+            "fr": "Mairie de Bordeaux",
+            "ja": "ボルドー市役所"
+          }
+        },
+        {
+          "name": "Jacques Maire",
+          "role": {
+            "fr": "Pavillon France Osaka 2025",
+            "ja": "大阪・関西万博 フランスパビリオン"
+          }
+        },
+        {
+          "name": "Pierre Rabadan",
+          "role": {
+            "fr": "Adjoint à la Maire de Paris",
+            "ja": "パリ市副市長"
+          }
+        },
+        {
+          "name": "Alain Soulas",
+          "role": {
+            "fr": "Conseiller du Commerce Extérieur, comité Émirats arabes unis",
+            "ja": "フランス貿易顧問 UAE委員会"
+          }
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Session 4",
+        "ja": "セッション4"
+      },
+      "title": {
+        "fr": "Dialogues France-Japon : Mieux Vivre en Ville et opportunités professionnelles",
+        "ja": "日仏対話：都市の暮らしと仕事の可能性"
+      },
+      "description": {
+        "fr": "Échanges sur place avec le réseau CCE-France : le commerce international, les métiers et la place de la langue dans le développement des entreprises japonaises en France ou des entreprises françaises au Japon, témoignages de chefs d’entreprise et échanges avec les étudiants de l’Inalco et le public.",
+        "ja": "フランス貿易顧問のフランス国内ネットワークと会場で意見を交わしました。国際貿易や職種、日本企業のフランス進出とフランス企業の日本進出における言語の役割を取り上げ、企業経営者の経験談を聞き、INALCOの学生や来場者と意見を交わしました。"
+      },
+      "speakers": [
+        {
+          "name": "Sophie Sidos-Vicat",
+          "role": {
+            "fr": "Présidente des Conseillers du Commerce Extérieur de la France",
+            "ja": "フランス貿易顧問会長"
+          }
+        },
+        {
+          "name": "Patrick Baruel",
+          "role": {
+            "fr": "Président de la Commission France des Conseillers du Commerce Extérieur de la France",
+            "ja": "フランス貿易顧問 フランス委員会委員長"
+          }
+        },
+        {
+          "name": "Raphaël Keller",
+          "role": {
+            "fr": "Ministre Conseiller, Chef du Service économique régional Japon – Corée du Sud",
+            "ja": "公使参事官、日本・韓国地域経済部長"
+          }
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "fr": "/pdf/2024_2.pdf",
+    "ja": "/pdf/JP_2024_2.pdf"
+  }
+}

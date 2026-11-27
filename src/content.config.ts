@@ -6,7 +6,8 @@ const text = z.string().trim().min(1);
 const order = z.number().int().nonnegative();
 const localized = <Schema extends z.ZodType>(schema: Schema) => ({ fr: schema, ja: schema });
 
-const pdf = z.string().regex(/^\/pdf\/[^/]+\.pdf$/i).nullable();
+const pdfPath = z.string().regex(/^\/pdf\/[^/]+\.pdf$/i);
+const pdf = pdfPath.nullable();
 const pages = z.number().int().positive().nullable();
 
 const publications = defineCollection({
@@ -42,4 +43,74 @@ const featured = defineCollection({
   ]),
 });
 
-export const collections = { publications, featured };
+const copy = z.object(localized(text));
+const splitTitle = z.object(localized(z.tuple([z.string().min(1), text])));
+const copyList = z.object(localized(z.array(text).min(1)));
+const eventPdfs = z.object(localized(pdfPath));
+const statistic = z.object({ value: text, label: copy });
+const actionImage = z.string().regex(/^\/images\/actions\/[^/]+\.webp$/);
+
+const actions = defineCollection({
+  loader: glob({ base: './src/content/actions', pattern: '*.json' }),
+  schema: z.discriminatedUnion('kind', [
+    z.object({
+      kind: z.literal('page'),
+      title: copy,
+      hero: z.object({
+        eyebrow: copy,
+        title: splitTitle,
+        description: copy,
+        photo: z.object({ src: actionImage, alt: copy, width: z.number().int().positive(), height: z.number().int().positive() }),
+        statistics: z.array(statistic).min(1),
+      }),
+      jump: z.object({ label: copy, items: z.array(z.object({ id: z.enum(['e2025', 'e2024', 'editions']), label: copy })).min(1) }),
+      earlier: z.object({ eyebrow: copy, title: copy, note: copy }),
+      links: z.object({ program: copy, review: copy }),
+    }),
+    z.object({
+      kind: z.literal('osaka-2025'),
+      eyebrow: copy,
+      title: copy,
+      description: copy,
+      topics: copyList,
+      statistics: z.array(statistic).min(1),
+      watermark: actionImage,
+      journalLabel: copy,
+      journalAnchor: text,
+    }),
+    z.object({
+      kind: z.literal('bilan-2024'),
+      eyebrow: copy,
+      title: splitTitle,
+      summary: z.object(localized(z.tuple([text, text]))),
+      statistics: z.array(statistic).min(1),
+      opening: z.object({ label: copy, description: copy }),
+      sessionsLabel: copy,
+      speakersLabel: copy,
+      sessions: z.array(z.object({
+        label: copy,
+        title: copy,
+        description: copy,
+        speakers: z.array(z.object({ name: text, role: copy })).min(1),
+      })).length(4),
+      pdf: eventPdfs,
+    }),
+    z.object({
+      kind: z.literal('editions'),
+      items: z.array(z.object({
+        year: copy,
+        title: copy,
+        subtitle: copy,
+        datePlace: copy.optional(),
+        statistics: copyList,
+        description: copy,
+        bullets: z.array(z.object({ label: copy, description: copy })).min(1),
+        link: z.enum(['program', 'review']),
+        pdf: eventPdfs,
+        todo: text.optional(),
+      })).length(5),
+    }),
+  ]),
+});
+
+export const collections = { publications, featured, actions };
