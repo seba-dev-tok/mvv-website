@@ -6,13 +6,12 @@ type Bilan = Extract<CollectionEntry<'actions'>['data'], { kind: 'bilan-2024' }>
 interface Props {
   locale: 'fr' | 'ja';
   sessions: Bilan['sessions'];
-  reportLabels: Bilan['reportLabels'];
   label: string;
   speakersLabel: string;
   program: { href: string; label: string };
 }
 
-const { locale, sessions, label, speakersLabel, program, reportLabels } = Astro.props;
+const { locale, sessions, label, speakersLabel, program } = Astro.props;
 ---
 
 <div class="actions-sessions" data-action-sessions>
@@ -25,27 +24,17 @@ const { locale, sessions, label, speakersLabel, program, reportLabels } = Astro.
       </button>
     ))}
   </div>
-  {sessions.map((session, index) => {
-    const frenchOnly = locale === 'ja' && !session.report.ja && Boolean(session.report.fr);
-    const report = session.report[locale] ?? (frenchOnly ? session.report.fr : null);
-
-    return <section id={`session-${index}`} class="actions-session">
+  {sessions.map((session, index) => (
+    <section id={`session-${index}`} class="actions-session">
       <h3>{session.title[locale]}</h3>
       <p>{session.description[locale]}</p>
       <h4 class="eyebrow">{speakersLabel}</h4>
       <ul class="actions-speakers">
         {session.speakers.map(speaker => <li><b>{speaker.name}</b><span>{speaker.role[locale]}</span></li>)}
       </ul>
-      <div class="actions-session-documents">
-        <a class="actions-pdf" href={program.href} target="_blank" rel="noopener noreferrer">{program.label}</a>
-        {report
-          ? <a class="actions-pdf" href={report} hreflang={frenchOnly ? 'fr' : locale} target="_blank" rel="noopener noreferrer">
-              {reportLabels[frenchOnly ? 'readFrench' : 'read'][locale]}
-            </a>
-          : <span class="actions-report-unavailable">{reportLabels.unavailable[locale]}</span>}
-      </div>
-    </section>;
-  })}
+    </section>
+  ))}
+  <a class="actions-pdf" href={program.href} target="_blank" rel="noopener noreferrer">{program.label}</a>
 </div>
 
 <script>
