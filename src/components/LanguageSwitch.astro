@@ -4,15 +4,16 @@ import site from '../content/site.json';
 
 interface Props {
   locale: 'fr' | 'ja';
+  path?: 'actions/';
 }
 
-const { locale } = Astro.props;
+const { locale, path } = Astro.props;
 ---
 
 <div class="lang" role="group" aria-label={site.labels.language[locale]}>
   {site.languages.map((language) => (
     <a
-      href={getRelativeLocaleUrl(language.locale)}
+      href={getRelativeLocaleUrl(language.locale, path)}
       lang={language.locale}
       hreflang={language.locale}
       aria-label={language.name}

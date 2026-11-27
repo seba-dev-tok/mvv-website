@@ -1,0 +1,84 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type Bilan = Extract<CollectionEntry<'actions'>['data'], { kind: 'bilan-2024' }>;
+
+interface Props {
+  locale: 'fr' | 'ja';
+  sessions: Bilan['sessions'];
+  label: string;
+  speakersLabel: string;
+  program: { href: string; label: string };
+}
+
+const { locale, sessions, label, speakersLabel, program } = Astro.props;
+---
+
+<div class="actions-sessions" data-action-sessions>
+  <div class="eyebrow" id="actions-sessions-label">{label}</div>
+  <div class="actions-session-tabs" role="tablist" aria-labelledby="actions-sessions-label" hidden>
+    {sessions.map((session, index) => (
+      <button class="actions-chip" id={`session-tab-${index}`} type="button" role="tab"
+        aria-controls={`session-${index}`} aria-selected={index === 0} tabindex={index === 0 ? 0 : -1}>
+        {session.label[locale]}
+      </button>
+    ))}
+  </div>
+  {sessions.map((session, index) => (
+    <section id={`session-${index}`} class="actions-session">
+      <h3>{session.title[locale]}</h3>
+      <p>{session.description[locale]}</p>
+      <h4 class="eyebrow">{speakersLabel}</h4>
+      <ul class="actions-speakers">
+        {session.speakers.map(speaker => <li><b>{speaker.name}</b><span>{speaker.role[locale]}</span></li>)}
+      </ul>
+    </section>
+  ))}
+  <a class="actions-pdf" href={program.href} target="_blank" rel="noopener noreferrer">{program.label}</a>
+</div>
+
+<script>
+  const sessions = document.querySelector('[data-action-sessions]');
+  const tablist = sessions?.querySelector<HTMLElement>('[role="tablist"]');
+
+  if (sessions && tablist) {
+    const tabs = [...tablist.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const panels = [...sessions.querySelectorAll<HTMLElement>('.actions-session')];
+
+    const activate = (selected: number) => {
+      tabs.forEach((tab, index) => {
+        const active = index === selected;
+        tab.setAttribute('aria-selected', String(active));
+        tab.tabIndex = active ? 0 : -1;
+        panels[index].hidden = !active;
+      });
+    };
+
+    panels.forEach((panel, index) => {
+      panel.setAttribute('role', 'tabpanel');
+      panel.setAttribute('aria-labelledby', tabs[index].id);
+      panel.tabIndex = 0;
+    });
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activate(index));
+      tab.addEventListener('keydown', event => {
+        const last = tabs.length - 1;
+        const destinations: Record<string, number | undefined> = {
+          ArrowLeft: index === 0 ? last : index - 1,
+          ArrowRight: index === last ? 0 : index + 1,
+          Home: 0,
+          End: last,
+        };
+        const next = destinations[event.key];
+        if (next === undefined) return;
+        event.preventDefault();
+        activate(next);
+        tabs[next].focus();
+      });
+    });
+
+    activate(0);
+    tablist.hidden = false;
+  }
+</script>

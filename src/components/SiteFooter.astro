@@ -1,11 +1,14 @@
 ---
+import { getRelativeLocaleUrl } from 'astro:i18n';
 import site from '../content/site.json';
 
 interface Props {
   locale: 'fr' | 'ja';
+  path?: 'actions/';
 }
 
-const { locale } = Astro.props;
+const { locale, path } = Astro.props;
+const home = getRelativeLocaleUrl(locale);
 ---
 
 <footer class="footer">
@@ -14,7 +17,7 @@ const { locale } = Astro.props;
     <div class="footer-copy">{site.footer[locale]}</div>
     <nav>
       {site.navigation.map((item) => item.available
-        ? <a href={item.href}>{item[locale]}</a>
+        ? <a href={item.href.startsWith('#') ? (path ? home + item.href : item.href) : home + item.href} aria-current={item.href === path ? 'page' : undefined}>{item[locale]}</a>
         : <span role="link" aria-disabled="true">{item[locale]}</span>)}
     </nav>
   </div>

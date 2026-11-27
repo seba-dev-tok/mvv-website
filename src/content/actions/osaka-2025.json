@@ -1,0 +1,60 @@
+{
+  "kind": "osaka-2025",
+  "eyebrow": {
+    "fr": "30 mai 2025 · Pavillon de la France, Expo 2025 Osaka",
+    "ja": "2025年5月30日 · 大阪・関西万博 フランスパビリオン"
+  },
+  "title": {
+    "fr": "Édition MVV 2025 : 12 ans de Mieux Vivre en Ville",
+    "ja": "MVV 2025：Mieux Vivre en Villeの12年"
+  },
+  "description": {
+    "fr": "Cent conseillers du commerce extérieur du monde entier réunis autour d’une vision : des villes « Smart, Sexy & Green ». L’édition clôt le plan d’action 2023-2025.",
+    "ja": "世界各地からフランス貿易顧問100名が集まり、「スマートで魅力的、そして環境に配慮した都市」というビジョンを共有しました。この開催回は2023〜2025年の行動計画の締めくくりとなりました。"
+  },
+  "topics": {
+    "fr": [
+      "Innovation technologique",
+      "Meilleure rénovation",
+      "Construire la ville ensemble",
+      "Nouveaux modèles économiques",
+      "Villes vertes"
+    ],
+    "ja": [
+      "技術革新",
+      "改修の質の向上",
+      "共に進めるまちづくり",
+      "新たな経済モデル",
+      "緑豊かな都市"
+    ]
+  },
+  "statistics": [
+    {
+      "value": "100",
+      "label": {
+        "fr": "conseillers du commerce extérieur du monde entier",
+        "ja": "世界各地のフランス貿易顧問"
+      }
+    },
+    {
+      "value": "115",
+      "label": {
+        "fr": "intervenants depuis 2013",
+        "ja": "2013年以降の登壇者"
+      }
+    },
+    {
+      "value": "1 900",
+      "label": {
+        "fr": "participants depuis 2013",
+        "ja": "2013年以降の参加者"
+      }
+    }
+  ],
+  "watermark": "/images/actions/bars-white.webp",
+  "journalLabel": {
+    "fr": "Lire le journal MVV 2025",
+    "ja": "MVV 2025年版ジャーナルを読む"
+  },
+  "journalAnchor": "journal-2025"
+}

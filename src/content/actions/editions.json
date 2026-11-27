@@ -1,0 +1,396 @@
+{
+  "kind": "editions",
+  "items": [
+    {
+      "year": {
+        "fr": "2023",
+        "ja": "2023年"
+      },
+      "title": {
+        "fr": "Symposium 2023",
+        "ja": "2023年シンポジウム"
+      },
+      "subtitle": {
+        "fr": "28 juin 2023 · Ambassade de France au Japon",
+        "ja": "2023年6月28日 · 在日フランス大使館"
+      },
+      "statistics": {
+        "fr": [
+          "90 participants sur place",
+          "260 spectateurs en direct"
+        ],
+        "ja": [
+          "会場参加者90名",
+          "ライブ視聴者260名"
+        ]
+      },
+      "description": {
+        "fr": "« Histoires de villes, histoires de personnes, diversité des villes de demain » : six thèmes inspirés de récits.",
+        "ja": "「都市の物語、人々の物語、未来の都市の多様性」を掲げ、物語に着想を得た六つのテーマを取り上げました。"
+      },
+      "bullets": [
+        {
+          "label": {
+            "fr": "Smart & Sexy :",
+            "ja": "スマートで魅力的な都市："
+          },
+          "description": {
+            "fr": "allier efficacité technologique et dimension humaine pour une ville à la fois « smart » et attractive, qui attire habitants, entreprises et institutions culturelles.",
+            "ja": "技術の効率性と人間的な側面を両立させ、住民、企業、文化施設を引きつける都市をつくる。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Le Petit Prince :",
+            "ja": "星の王子さま："
+          },
+          "description": {
+            "fr": "faire de la diversité une richesse et bâtir ensemble une direction commune en écoutant les histoires des uns et des autres.",
+            "ja": "互いの物語に耳を傾け、多様性を強みに変えながら、共に進む方向を見いだす。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Le Bon Marché :",
+            "ja": "ボン・マルシェ："
+          },
+          "description": {
+            "fr": "passer de la consommation de masse à l’usage de services, avec l’économie circulaire, le financement participatif et de nouveaux partenariats public-privé.",
+            "ja": "循環型経済、クラウドファンディング、新たな官民連携を通じて、大量消費からサービスの利用へ転換する。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Manon des sources :",
+            "ja": "泉のマノン："
+          },
+          "description": {
+            "fr": "repenser l’eau, l’énergie, la mobilité et l’accès à l’information pour répondre aux besoins des sociétés dans 50 à 100 ans.",
+            "ja": "50年後、100年後の社会のニーズに応えるため、水、エネルギー、移動、情報へのアクセスを見直す。"
+          }
+        },
+        {
+          "label": {
+            "fr": "La Ballade de Narayama :",
+            "ja": "楢山節考："
+          },
+          "description": {
+            "fr": "face au vieillissement et à la dénatalité, une ville où les seniors sont des membres à part entière de la communauté.",
+            "ja": "少子高齢化を踏まえ、高齢者が地域の一員として活躍できる都市を考える。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Vingt mille lieues sous les mers :",
+            "ja": "海底二万里："
+          },
+          "description": {
+            "fr": "quand la technologie rend l’impossible possible (drones, quartiers flottants) pour faire rêver et redynamiser les territoires qui se dépeuplent.",
+            "ja": "ドローンや水上地区など、技術で不可能を可能にし、人口が減る地域に夢と活力を取り戻す。"
+          }
+        }
+      ],
+      "link": "program",
+      "pdf": {
+        "fr": "/pdf/2023_2.pdf",
+        "ja": "/pdf/JP_2023_2.pdf"
+      }
+    },
+    {
+      "year": {
+        "fr": "2021–22",
+        "ja": "2021〜22年"
+      },
+      "title": {
+        "fr": "Sessions d’échange en ligne 2021/2022",
+        "ja": "2021〜2022年オンライン交流会"
+      },
+      "subtitle": {
+        "fr": "Cycle de trois sessions en ligne",
+        "ja": "全3回のオンライン交流会"
+      },
+      "statistics": {
+        "fr": [
+          "600 participants",
+          "22 intervenants"
+        ],
+        "ja": [
+          "参加者600名",
+          "登壇者22名"
+        ]
+      },
+      "description": {
+        "fr": "Comment les villes participent à la réduction de leur empreinte carbone, avec l’objectif de neutralité carbone en 2050.",
+        "ja": "2050年のカーボンニュートラルを目指し、都市が二酸化炭素排出量を減らすために果たす役割を考えました。"
+      },
+      "bullets": [
+        {
+          "label": {
+            "fr": "Mieux construire la ville :",
+            "ja": "よりよい都市をつくる："
+          },
+          "description": {
+            "fr": "bois, énergie et nouvelles méthodes de construction pour une ville bas carbone.",
+            "ja": "低炭素都市に向けた木材、エネルギー、新しい建設手法。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Mieux respirer en ville :",
+            "ja": "都市で快適に呼吸する："
+          },
+          "description": {
+            "fr": "végétal et zéro carbone, avec les exemples de Bordeaux, Yokohama et Kitakyushu.",
+            "ja": "ボルドー、横浜、北九州の事例から考える緑化と脱炭素。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Mieux penser la ville :",
+            "ja": "よりよい都市を考える："
+          },
+          "description": {
+            "fr": "hydrogène, finance verte et tourisme décarboné, de Kobe à Hokkaido.",
+            "ja": "神戸から北海道まで、水素、グリーンファイナンス、観光の脱炭素化。"
+          }
+        }
+      ],
+      "link": "review",
+      "pdf": {
+        "fr": "/pdf/2022_1.pdf",
+        "ja": "/pdf/JP_2022_1.pdf"
+      }
+    },
+    {
+      "year": {
+        "fr": "2019",
+        "ja": "2019年"
+      },
+      "title": {
+        "fr": "Séminaire 2019",
+        "ja": "2019年セミナー"
+      },
+      "subtitle": {
+        "fr": "Avec session interactive",
+        "ja": "参加型セッションを併催"
+      },
+      "statistics": {
+        "fr": [
+          "110 participants"
+        ],
+        "ja": [
+          "参加者110名"
+        ]
+      },
+      "description": {
+        "fr": "Trois angles pour penser la ville de demain.",
+        "ja": "未来の都市を三つの角度から考えました。"
+      },
+      "bullets": [
+        {
+          "label": {
+            "fr": "Comment rêver la ville ? :",
+            "ja": "どのような都市を思い描くか："
+          },
+          "description": {
+            "fr": "service public, espace public, identité culturelle et convivialité du tissu urbain.",
+            "ja": "公共サービス、公共空間、文化的アイデンティティ、都市の交流のしやすさ。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Comment financer les rêves de ville ? :",
+            "ja": "理想の都市にどう資金を調達するか："
+          },
+          "description": {
+            "fr": "partenariats public-privé, gestion de destination, marchés publics et nouveaux modèles d’affaires.",
+            "ja": "官民連携、訪問先の運営、公共調達、新しいビジネスモデル。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Comment pérenniser les rêves de ville ? :",
+            "ja": "理想の都市をどう持続させるか："
+          },
+          "description": {
+            "fr": "intégrer les objectifs de développement durable à la politique urbaine et à la réalité des métropoles.",
+            "ja": "持続可能な開発目標を都市政策と大都市の実情に組み込む。"
+          }
+        }
+      ],
+      "link": "program",
+      "pdf": {
+        "fr": "/pdf/2019_2.pdf",
+        "ja": "/pdf/JP_2019_2.pdf"
+      },
+      "datePlace": {
+        "fr": "23 octobre 2019 · Tokyo",
+        "ja": "2019年10月23日 · 東京"
+      }
+    },
+    {
+      "year": {
+        "fr": "2017",
+        "ja": "2017年"
+      },
+      "title": {
+        "fr": "Séminaire 2017",
+        "ja": "2017年セミナー"
+      },
+      "subtitle": {
+        "fr": "Avec table ronde animée",
+        "ja": "司会進行付きラウンドテーブルを併催"
+      },
+      "statistics": {
+        "fr": [
+          "98 participants"
+        ],
+        "ja": [
+          "参加者98名"
+        ]
+      },
+      "description": {
+        "fr": "Innovations urbaines, espaces publics et résilience.",
+        "ja": "都市のイノベーション、公共空間、レジリエンスを取り上げました。"
+      },
+      "bullets": [
+        {
+          "label": {
+            "fr": "Innovations pour les villes :",
+            "ja": "都市のためのイノベーション："
+          },
+          "description": {
+            "fr": "partager la vision des villes du futur et les moyens d’innover.",
+            "ja": "未来の都市像と、イノベーションを生み出す手段を共有する。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Identité et convivialité des espaces publics :",
+            "ja": "公共空間の個性と親しみやすさ："
+          },
+          "description": {
+            "fr": "de l’organisation de l’espace à son animation et à son appropriation par les habitants.",
+            "ja": "空間の整備から、にぎわいづくりや住民による活用までを考える。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Résilience et anticipation du tissu urbain :",
+            "ja": "都市のレジリエンスと将来への備え："
+          },
+          "description": {
+            "fr": "imaginer les futurs possibles pour mieux préparer les villes.",
+            "ja": "起こり得る未来を想像し、都市の備えを強化する。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Projets de villes :",
+            "ja": "都市プロジェクト："
+          },
+          "description": {
+            "fr": "de la vision de la « ville compacte » à des projets aux approches multiples.",
+            "ja": "コンパクトシティの構想から、さまざまなアプローチのプロジェクトまでを紹介する。"
+          }
+        }
+      ],
+      "link": "program",
+      "pdf": {
+        "fr": "/pdf/2017_2.pdf",
+        "ja": "/pdf/JP_2017_2.pdf"
+      },
+      "datePlace": {
+        "fr": "7 novembre 2017 · Orange Japon",
+        "ja": "2017年11月7日 · オレンジ・ジャパン"
+      }
+    },
+    {
+      "year": {
+        "fr": "2016",
+        "ja": "2016年"
+      },
+      "title": {
+        "fr": "Présentations flash 2016",
+        "ja": "2016年ライトニングトーク"
+      },
+      "subtitle": {
+        "fr": "Format court et participatif",
+        "ja": "短時間の参加型イベント"
+      },
+      "statistics": {
+        "fr": [
+          "90 participants"
+        ],
+        "ja": [
+          "参加者90名"
+        ]
+      },
+      "description": {
+        "fr": "Des présentations flash de cinq minutes, suivies d’un débat et d’un brainstorming.",
+        "ja": "5分間の短い発表の後、討論とアイデア出しを行いました。"
+      },
+      "bullets": [
+        {
+          "label": {
+            "fr": "Ville intelligente et services :",
+            "ja": "スマートシティとサービス："
+          },
+          "description": {
+            "fr": "nouveaux usages et services qui transforment la ville, jusqu’au mobilier urbain intelligent.",
+            "ja": "スマートなストリートファニチャーなど、都市を変える新たな使い方とサービス。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Santé et bien-être :",
+            "ja": "健康とウェルビーイング："
+          },
+          "description": {
+            "fr": "« smart wellness », lien entre santé et politique urbaine, bien vivre en famille avec les grands-parents.",
+            "ja": "スマートウェルネス、健康と都市政策のつながり、祖父母と共に暮らす家族の生活。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Mobilité et infrastructures :",
+            "ja": "移動とインフラ："
+          },
+          "description": {
+            "fr": "transport urbain confortable, héritage mobilité de Tokyo 2020 et besoins futurs des infrastructures.",
+            "ja": "快適な都市交通、東京2020が残すモビリティのレガシー、将来のインフラ需要。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Sécurité :",
+            "ja": "安全："
+          },
+          "description": {
+            "fr": "le projet « Safe City » de Mexico, l’un des plus ambitieux projets de sécurité publique au monde.",
+            "ja": "世界有数の大規模な公共安全事業、メキシコ市の「セーフシティ」プロジェクト。"
+          }
+        },
+        {
+          "label": {
+            "fr": "Énergie et projets de territoires :",
+            "ja": "エネルギーと地域プロジェクト："
+          },
+          "description": {
+            "fr": "la lumière pour une ville plus « sexy et smart », le label écoquartier français, Kashiwanoha et la redynamisation de l’économie locale.",
+            "ja": "都市をより魅力的でスマートにする照明、フランスのエコ地区認証、柏の葉、地域経済の活性化。"
+          }
+        }
+      ],
+      "link": "program",
+      "pdf": {
+        "fr": "/pdf/2016_2.pdf",
+        "ja": "/pdf/JP_2016_2.pdf"
+      },
+      "datePlace": {
+        "fr": "3 octobre 2016 · Orange Japon",
+        "ja": "2016年10月3日 · オレンジ・ジャパン"
+      }
+    }
+  ]
+}

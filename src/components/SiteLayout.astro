@@ -1,0 +1,35 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/newsreader';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import '@fontsource-variable/noto-sans-jp';
+import '../styles/site.css';
+import site from '../content/site.json';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+
+interface Props {
+  locale: 'fr' | 'ja';
+  path?: 'actions/';
+  title?: string;
+}
+
+const { locale, path, title } = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    {site.languages.map(({ locale }) => <link rel="alternate" hreflang={locale} href={getRelativeLocaleUrl(locale, path)} />)}
+    <link rel="alternate" hreflang="x-default" href={getRelativeLocaleUrl('fr', path)} />
+  </head>
+  <body>
+    <SiteHeader locale={locale} path={path} />
+    <main><slot /></main>
+    <SiteFooter locale={locale} path={path} />
+  </body>
+</html>

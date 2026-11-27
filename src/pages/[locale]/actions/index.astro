@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import SiteLayout from '../../../components/SiteLayout.astro';
+import ActionSessions from '../../../components/ActionSessions.astro';
+import '../../../styles/actions.css';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'fr' } }, { params: { locale: 'ja' } }];
+}
+
+const locale = Astro.params.locale as 'fr' | 'ja';
+const entries = (await getCollection('actions')).map(({ data }) => data);
+const page = entries.find(entry => entry.kind === 'page');
+const osaka = entries.find(entry => entry.kind === 'osaka-2025');
+const bilan = entries.find(entry => entry.kind === 'bilan-2024');
+const editions = entries.find(entry => entry.kind === 'editions');
+if (!page || !osaka || !bilan || !editions) throw new Error('Missing Actions content');
+
+const { hero, jump, earlier, links } = page;
+const home = getRelativeLocaleUrl(locale);
+---
+
+<SiteLayout locale={locale} path="actions/" title={page.title[locale]}>
+  <section class="wrap hero actions-hero" aria-labelledby="actions-title">
+    <div>
+      <div class="eyebrow">{hero.eyebrow[locale]}</div>
+      <h1 id="actions-title">{hero.title[locale][0]}<em>{hero.title[locale][1]}</em></h1>
+      <p class="actions-lead">{hero.description[locale]}</p>
+      <div class="actions-history-stats">
+        {hero.statistics.map(stat => <div><b>{stat.value}</b><span>{stat.label[locale]}</span></div>)}
+      </div>
+    </div>
+    <div class="arch"><img class="actions-photo" src={hero.photo.src} width={hero.photo.width} height={hero.photo.height} alt={hero.photo.alt[locale]} decoding="async" /></div>
+  </section>
+
+  <nav class="wrap actions-jump" aria-label={jump.label[locale]}>
+    <span>{jump.label[locale]}</span>
+    {jump.items.map(item => <a class="actions-chip" href={`#${item.id}`}>{item.label[locale]}</a>)}
+  </nav>
+
+  <section class="wrap actions-section" id="e2025" aria-labelledby="osaka-title">
+    <div class="actions-feature">
+      <img class="actions-watermark" src={osaka.watermark} width="130" height="251" alt="" loading="lazy" />
+      <div>
+        <div class="eyebrow">{osaka.eyebrow[locale]}</div>
+        <h2 id="osaka-title">{osaka.title[locale]}</h2>
+        <p>{osaka.description[locale]}</p>
+        <ul class="actions-tags">{osaka.topics[locale].map(topic => <li>{topic}</li>)}</ul>
+        <a class="btn actions-journal" href={home + '#' + osaka.journalAnchor}>{osaka.journalLabel[locale]}</a>
+      </div>
+      <div class="actions-feature-stats">
+        {osaka.statistics.map(stat => <div><b>{stat.value}</b><span>{stat.label[locale]}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap actions-section actions-bilan" id="e2024" aria-labelledby="bilan-title">
+    <div class="eyebrow">{bilan.eyebrow[locale]}</div>
+    <h2 id="bilan-title">{bilan.title[locale][0]}<em>{bilan.title[locale][1]}</em></h2>
+    {bilan.summary[locale].map(paragraph => <p class="actions-lead">{paragraph}</p>)}
+    <div class="actions-facts">
+      {bilan.statistics.map(stat => <div><b>{stat.value}</b><span>{stat.label[locale]}</span></div>)}
+      <div><small>{bilan.opening.label[locale]}</small><span>{bilan.opening.description[locale]}</span></div>
+    </div>
+    <ActionSessions
+      locale={locale}
+      sessions={bilan.sessions}
+      label={bilan.sessionsLabel[locale]}
+      speakersLabel={bilan.speakersLabel[locale]}
+      program={{ href: bilan.pdf[locale], label: links.program[locale] }}
+    />
+  </section>
+
+  <section class="wrap actions-section actions-editions" id="editions" aria-labelledby="editions-title">
+    <div class="eyebrow">{earlier.eyebrow[locale]}</div>
+    <h2 id="editions-title">{earlier.title[locale]}</h2>
+    {editions.items.map(edition => (
+      <article class="actions-edition">
+        <div class="edition-year">{edition.year[locale]}</div>
+        <div class="edition-copy">
+          <h3>{edition.title[locale]}</h3>
+          <div class="edition-subtitle">
+            {edition.datePlace && <>{edition.datePlace[locale]} · </>}{edition.subtitle[locale]}
+          </div>
+          <ul class="actions-tags">{edition.statistics[locale].map(stat => <li>{stat}</li>)}</ul>
+          <p>{edition.description[locale]}</p>
+          <ul class="edition-topics">
+            {edition.bullets.map(bullet => <li><b>{bullet.label[locale]}</b> {bullet.description[locale]}</li>)}
+          </ul>
+          <a class="actions-pdf" href={edition.pdf[locale]} target="_blank" rel="noopener noreferrer">{links[edition.link][locale]}</a>
+        </div>
+      </article>
+    ))}
+    <p class="actions-fine">{earlier.note[locale]}</p>
+  </section>
+</SiteLayout>

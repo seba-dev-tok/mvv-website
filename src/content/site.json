@@ -5,7 +5,7 @@
     { "href": "#mission", "available": true, "fr": "Notre mission", "ja": "私たちのミッション" },
     { "href": "#comite", "available": true, "fr": "Comité de pilotage", "ja": "運営委員会" },
     { "href": "#publications", "available": true, "fr": "Publications", "ja": "出版物" },
-    { "href": "actions/", "available": false, "fr": "Actions", "ja": "活動" },
+    { "href": "actions/", "available": true, "fr": "Actions", "ja": "活動" },
     { "href": "#roadmap", "available": true, "fr": "Feuille de route 2026-2027", "ja": "2026-2027年ロードマップ" }
   ],
   "languages": [

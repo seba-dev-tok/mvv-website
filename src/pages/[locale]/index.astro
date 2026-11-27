@@ -1,15 +1,7 @@
 ---
-import { getRelativeLocaleUrl } from 'astro:i18n';
-import '@fontsource-variable/inter';
-import '@fontsource-variable/newsreader';
-import '@fontsource-variable/newsreader/wght-italic.css';
-import '@fontsource-variable/noto-sans-jp';
-import '../../styles/site.css';
-import site from '../../content/site.json';
-import SiteHeader from '../../components/SiteHeader.astro';
+import SiteLayout from '../../components/SiteLayout.astro';
 import SiteHero from '../../components/SiteHero.astro';
 import HomeSections from '../../components/HomeSections.astro';
-import SiteFooter from '../../components/SiteFooter.astro';
 
 export function getStaticPaths() {
   return [
@@ -21,21 +13,7 @@ export function getStaticPaths() {
 const locale = Astro.params.locale as 'fr' | 'ja';
 ---
 
-<!doctype html>
-<html lang={locale}>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{site.name}</title>
-    {site.languages.map(({ locale }) => <link rel="alternate" hreflang={locale} href={getRelativeLocaleUrl(locale)} />)}
-    <link rel="alternate" hreflang="x-default" href={getRelativeLocaleUrl('fr')} />
-  </head>
-  <body>
-    <SiteHeader locale={locale} />
-    <main>
-      <SiteHero locale={locale} />
-      <HomeSections locale={locale} />
-    </main>
-    <SiteFooter locale={locale} />
-  </body>
-</html>
+<SiteLayout locale={locale}>
+  <SiteHero locale={locale} />
+  <HomeSections locale={locale} />
+</SiteLayout>
