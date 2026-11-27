@@ -1,0 +1,75 @@
+{
+  "label": {
+    "fr": "Feuille de route 2026-2027",
+    "ja": "2026-2027年ロードマップ"
+  },
+  "heading": [
+    "MVV 2026-2027 : une réflexion guidée par ",
+    "l’intelligence collective"
+  ],
+  "cards": [
+    {
+      "year": "2026",
+      "title": "Les Smart Cities observées sous de nouveaux angles",
+      "description": "En 2026, Mieux Vivre en Ville a ouvert un dialogue entre générations. De jeunes professionnels de sociétés françaises implantées au Japon ont interrogé des Conseillers du Commerce Extérieur de la France sur la ville intelligente, sous des angles variés. Les articles qui en sont issus sont publiés au fil de l’année sur ce site.",
+      "topics": [
+        "Cybersécurité",
+        "Financement",
+        "Énergie",
+        "Durabilité",
+        "Accès à l’eau et traitement"
+      ],
+      "articles": "Lire les articles"
+    },
+    {
+      "year": "2027",
+      "title": "Un livre blanc sur les Smart Cities au Japon",
+      "description": "Dans le prolongement de ce travail, MVV prépare un guide de référence pour comprendre qui fait quoi au Japon, avec quels moyens, et à qui s’adresser. Il mettra l’accent sur trois questions concrètes : les décideurs, les financements et les possibilités de coopération franco-japonaise.",
+      "partsLabel": "Le livre blanc s’organisera en trois volets :",
+      "parts": [
+        {
+          "title": "Une synthèse stratégique et pratique",
+          "description": "Défis urbains du Japon, politiques publiques, écosystème et opportunités de coopération"
+        },
+        {
+          "title": "Un dossier documentaire",
+          "description": "Grands domaines de transformation urbaine, principaux acteurs japonais et réalisations emblématiques"
+        },
+        {
+          "title": "Des outils pratiques",
+          "description": "Répertoire des acteurs, cartographie des programmes et financements, sources et méthodologie"
+        }
+      ],
+      "method": "Il s’appuiera sur la recherche documentaire, des entretiens, des questionnaires et des retours d’expérience de terrain."
+    },
+    {
+      "year": "Automne 2027",
+      "title": "Une table ronde franco-japonaise",
+      "description": "La publication sera présentée lors d’une table ronde réunissant des acteurs japonais clés de la ville de demain. Elle sera suivie d’un cocktail, pour prolonger les échanges."
+    }
+  ],
+  "timelineLabel": "De janvier à l’automne 2027",
+  "timeline": [
+    {
+      "period": "Janvier 2027",
+      "label": "Événement de lancement",
+      "highlighted": false
+    },
+    {
+      "period": "T1 – T2 2027",
+      "label": "Recherche et entretiens",
+      "highlighted": false
+    },
+    {
+      "period": "Été 2027",
+      "label": "Rédaction",
+      "highlighted": false
+    },
+    {
+      "period": "Automne 2027",
+      "label": "Publication et événement",
+      "highlighted": true
+    }
+  ],
+  "_todoJa": "TODO: Translate the heading, cards, article link and timeline."
+}

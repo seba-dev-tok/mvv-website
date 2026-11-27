@@ -8,6 +8,7 @@ import '../../styles/site.css';
 import site from '../../content/site.json';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteHero from '../../components/SiteHero.astro';
+import HomeSections from '../../components/HomeSections.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 
 export function getStaticPaths() {
@@ -33,6 +34,7 @@ const locale = Astro.params.locale as 'fr' | 'ja';
     <SiteHeader locale={locale} />
     <main>
       <SiteHero locale={locale} />
+      <HomeSections locale={locale} />
     </main>
     <SiteFooter locale={locale} />
   </body>

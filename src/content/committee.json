@@ -1,0 +1,61 @@
+{
+  "label": {
+    "fr": "Comité de pilotage",
+    "ja": "運営委員会"
+  },
+  "heading": {
+    "fr": "Celles et ceux qui animent la démarche",
+    "ja": "活動を牽引するメンバー"
+  },
+  "highlight": {
+    "fr": "Pilote du comité",
+    "ja": "委員会リーダー"
+  },
+  "members": [
+    {
+      "name": "Maïa Maniglier",
+      "role": "Présidente",
+      "company": "Exprime Inc.",
+      "photo": "/images/committee/maia.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": true,
+      "linkedin": "https://www.linkedin.com/in/maiamaniglier/",
+      "linkedinLabel": "Maïa Maniglier sur LinkedIn"
+    },
+    {
+      "name": "Isabelle Senghor",
+      "role": "Représentante générale",
+      "company": "EDF Japon",
+      "photo": "/images/committee/isabelle.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": "https://www.linkedin.com/in/senghor-isabelle-a21950175/",
+      "linkedinLabel": "Isabelle Senghor sur LinkedIn"
+    },
+    {
+      "name": "Sébastien Cardet",
+      "role": "Vice-président, Conseil et Services",
+      "company": "Dassault Systèmes Japon",
+      "photo": "/images/committee/sebastien.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": "https://www.linkedin.com/in/sebastien-cardet-5108692/",
+      "linkedinLabel": "Sébastien Cardet sur LinkedIn"
+    },
+    {
+      "name": "Benjamin Lamberg",
+      "role": "Senior Country Officer",
+      "company": "Groupe Crédit Agricole Japon",
+      "photo": "/images/committee/benjamin.webp",
+      "width": 440,
+      "height": 440,
+      "highlighted": false,
+      "linkedin": "https://www.linkedin.com/in/benjamin-lamberg-b384bb/",
+      "linkedinLabel": "Benjamin Lamberg sur LinkedIn"
+    }
+  ],
+  "_todoJa": "TODO: Translate member roles, company labels and LinkedIn accessibility labels."
+}

@@ -26,7 +26,9 @@ const home = getRelativeLocaleUrl(locale);
   </div>
 </header>
 <nav class="menu" id="menu" aria-label={site.labels.mainMenu}>
-  {site.navigation.map((item) => <span class="menu-item" role="link" aria-disabled="true">{item[locale]}</span>)}
+  {site.navigation.map((item) => item.available
+    ? <a class="menu-item" href={item.href}>{item[locale]}</a>
+    : <span class="menu-item" role="link" aria-disabled="true">{item[locale]}</span>)}
   <div class="lang-mobile"><LanguageSwitch locale={locale} /></div>
 </nav>
 
@@ -42,6 +44,11 @@ const home = getRelativeLocaleUrl(locale);
     };
 
     button.addEventListener('click', () => setOpen(button.getAttribute('aria-expanded') !== 'true'));
+    menu.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (mobile.matches) setOpen(false);
+      });
+    });
     mobile.addEventListener('change', () => setOpen(false));
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {

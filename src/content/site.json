@@ -2,11 +2,11 @@
   "name": "Mieux Vivre en Ville",
   "cceName": "Les Conseillers du Commerce Extérieur de la France — Japon",
   "navigation": [
-    { "href": "#mission", "fr": "Notre mission", "ja": "私たちのミッション" },
-    { "href": "#comite", "fr": "Comité de pilotage", "ja": "運営委員会" },
-    { "href": "#publications", "fr": "Publications", "ja": "出版物" },
-    { "href": "actions/", "fr": "Actions", "ja": "活動" },
-    { "href": "#roadmap", "fr": "Feuille de route 2026-2027", "ja": "2026-2027年ロードマップ" }
+    { "href": "#mission", "available": true, "fr": "Notre mission", "ja": "私たちのミッション" },
+    { "href": "#comite", "available": true, "fr": "Comité de pilotage", "ja": "運営委員会" },
+    { "href": "#publications", "available": false, "fr": "Publications", "ja": "出版物" },
+    { "href": "actions/", "available": false, "fr": "Actions", "ja": "活動" },
+    { "href": "#roadmap", "available": true, "fr": "Feuille de route 2026-2027", "ja": "2026-2027年ロードマップ" }
   ],
   "languages": [
     { "locale": "fr", "label": "FR", "name": "Français" },

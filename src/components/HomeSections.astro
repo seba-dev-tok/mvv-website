@@ -1,0 +1,103 @@
+---
+import mission from '../content/mission.json';
+import committee from '../content/committee.json';
+import roadmap from '../content/roadmap.json';
+import contact from '../content/contact.json';
+import '../styles/home-sections.css';
+
+interface Props {
+  locale: 'fr' | 'ja';
+}
+
+const { locale } = Astro.props;
+---
+
+<section class="home-section mission-band" id="mission" aria-labelledby="mission-title">
+  <div class="wrap">
+    <div class="eyebrow">{mission.label[locale]}</div>
+    <div class="mission" lang="fr">
+      <h2 id="mission-title">{mission.heading[0]}<em>{mission.heading[1]}</em></h2>
+      <div class="mission-copy">{mission.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div>
+    </div>
+    <div class="stats" lang="fr">
+      {mission.statistics.map((stat) => (
+        <div class="stat"><b>{stat.value}</b><span>{stat.label}</span></div>
+      ))}
+      <div class="stat formats"><small>{mission.formats[0]}</small><div>{mission.formats[1]}</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap home-section committee" id="comite" aria-labelledby="committee-title">
+  <div class="eyebrow">{committee.label[locale]}</div>
+  <h2 id="committee-title">{committee.heading[locale]}</h2>
+  <div class="members">
+    {committee.members.map((member) => (
+      <a
+        class:list={['member', { highlighted: member.highlighted }]}
+        href={member.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={member.linkedinLabel}
+      >
+        <img src={member.photo} alt={member.name} width={member.width} height={member.height} loading="lazy" />
+        <div class="member-text">
+          {member.highlighted && <span class="member-pill">{committee.highlight[locale]}</span>}
+          <div class="member-name">{member.name}</div>
+          <div class="member-role" lang="fr">{member.role}</div>
+          <div class="member-company" lang="fr">{member.company}</div>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<section class="wrap home-section roadmap" id="roadmap" aria-labelledby="roadmap-title">
+  <div class="eyebrow">{roadmap.label[locale]}</div>
+  <h2 id="roadmap-title" lang="fr">{roadmap.heading[0]}<em>{roadmap.heading[1]}</em></h2>
+  <div class="roadmap-cards" lang="fr">
+    {roadmap.cards.map((card) => (
+      <article class="roadmap-card">
+        <div class="roadmap-period">{card.year}</div>
+        <h3>{card.title}</h3>
+        <p>{card.description}</p>
+        {card.topics && (
+          <>
+            <div class="roadmap-topics">{card.topics.map((topic) => <span>{topic}</span>)}</div>
+            <span class="roadmap-articles" role="link" aria-disabled="true">{card.articles}</span>
+          </>
+        )}
+        {card.parts && (
+          <>
+            <p class="roadmap-parts-label">{card.partsLabel}</p>
+            {card.parts.map((part) => (
+              <div class="roadmap-part"><b>{part.title}</b><small>{part.description}</small></div>
+            ))}
+            <p class="roadmap-method">{card.method}</p>
+          </>
+        )}
+      </article>
+    ))}
+  </div>
+  <div class="roadmap-schedule" lang="fr">
+    <h3 class="eyebrow">{roadmap.timelineLabel}</h3>
+    <ol class="roadmap-timeline">
+      {roadmap.timeline.map((step) => (
+        <li class:list={[{ highlighted: step.highlighted }]}>
+          <b>{step.period}</b><span>{step.label}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<section class="wrap home-section contact" id="contribuer" aria-labelledby="contact-title">
+  <div class="contact-banner">
+    <div>
+      <div class="eyebrow">{contact.label[locale]}</div>
+      <h2 id="contact-title">{contact.heading[locale]}</h2>
+      <p lang="fr">{contact.description}</p>
+    </div>
+    <a class="btn" href={`mailto:${contact.email}`} lang="fr">{contact.action}</a>
+  </div>
+</section>

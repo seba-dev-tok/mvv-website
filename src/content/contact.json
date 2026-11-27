@@ -1,0 +1,14 @@
+{
+  "label": {
+    "fr": "Contribuer",
+    "ja": "参加のお願い"
+  },
+  "heading": {
+    "fr": "Proposez une idée, participez ou intervenez",
+    "ja": "ご提案・ご参加・ご登壇をお待ちしています"
+  },
+  "description": "Écrivez-nous à contact@mieuxvivreenville.com et partagez l’information autour de vous.",
+  "action": "Nous écrire",
+  "email": "contact@mieuxvivreenville.com",
+  "_todoJa": "TODO: Translate the contact description and button."
+}
