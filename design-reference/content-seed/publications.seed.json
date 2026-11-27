@@ -16,21 +16,6 @@
     "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
   },
   {
-    "slug": "journal-2026-japonais",
-    "year": 2026,
-    "type": "revue",
-    "title_fr": "Journal 2026 (japonais)",
-    "description_fr": "Version japonaise du journal 2026.",
-    "pages": null,
-    "languages": [
-      "日本語"
-    ],
-    "cover_source_url": null,
-    "pdf_fr": null,
-    "pdf_ja": null,
-    "pdf_note": "Fill from the PDFs listed in design-reference/pdf/; map each to pdf_fr / pdf_ja."
-  },
-  {
     "slug": "journal-2025",
     "year": 2025,
     "type": "revue",

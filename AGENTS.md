@@ -90,7 +90,7 @@ Four members as cards (photo, name, role, company), each card is a link to the m
 - Cards show the cover image (with the dark-green overlay, the document icon and the year centred), the title, a subtitle of **at most 3 lines**, the page count and the available languages. Card: "Lire" button.
 - Default: 10 documents displayed, then a "older years" toggle. Desktop: grid; mobile: two compact columns.
 - **Language rule**: the list follows the site language. In French, French documents are shown. In Japanese, **all** documents are shown; a document with no Japanese version shows the note "日本語版はありません · Disponible en français uniquement" and the button "Lire (français)". Each publication has `pdf_fr` and optionally `pdf_ja`; the rule is driven by which fields are filled.
-- The 13 documents, with their data, are in `content-seed/publications.seed.json` (title, subtitle, type, year, pages, languages, cover source URL). Covers currently come from the old Squarespace site (`cover_source_url`): **download them into `public/images/covers/` and reference the local copies**; never hot-link in production.
+- The 12 documents, with their data, are in `content-seed/publications.seed.json` (title, subtitle, type, year, pages, languages, cover source URL). Covers currently come from the old Squarespace site (`cover_source_url`): **download them into `public/images/covers/` and reference the local copies**; never hot-link in production.
 
 ### Actions
 - Header: "Treize ans de rencontres pour mieux vivre en ville".
@@ -149,7 +149,6 @@ Suggested collections and files (adapt to what Pages CMS supports):
 
 - Real LinkedIn URLs for the four members; original (higher-resolution) committee photos.
 - Titles and descriptions of the two upcoming articles (December 2026, January 2027).
-- Cover for "Journal 2026 (japonais)" (none exists); page count for Journal 2025.
 - Possible harmonisation of titles "Synthèse 2016 / Synthèse 2017 / Rapport 2019" into "Rapport du symposium …".
 - Japanese translations must be reviewed by a native speaker before launch.
 - Which Japanese PDF versions exist for each publication (drives the language rule).
