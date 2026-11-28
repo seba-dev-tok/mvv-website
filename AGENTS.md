@@ -88,18 +88,18 @@ Text and three statistics (86+, 1 250+, 244+). Copy from the prototype.
 Four members as cards (photo, name, role, company), each card is a link to the member's LinkedIn profile (new tab). Maïa Maniglier is highlighted (green card, pill "Pilote du comité", title "Présidente", company "Exprime Inc."). Members: Maïa Maniglier, Isabelle Senghor (EDF Japon), Sébastien Cardet (Dassault Systèmes Japon), Benjamin Lamberg ("Senior Country Officer", Crédit Agricole Japon). On mobile: two photos per row, with name, role and company in a box under each photo. **The LinkedIn URLs in the prototype are name-search placeholders; mark them `TODO` in the content until real profile URLs are provided.**
 
 ### Publications
-- Filter chips by type: Tous les documents, Articles, Journaux et revues, Rapports et synthèses, Compilations, Sessions. **No "Programmes" type. No year filter in the UI** (except the removable "Années : 2026 · 2027 ✕" tag set by the roadmap link "Lire les articles", which pre-filters Articles for 2026-2027).
-- Cards show the cover image (with the dark-green overlay, the document icon and the year centred), the title, a subtitle of **at most 3 lines**, the page count and the available languages. Card: "Lire" button.
-- Default: 10 documents displayed, then a "older years" toggle. Desktop: grid; mobile: two compact columns.
+- Filter chips: Tous les documents, Articles, Journaux et revues (including reports, summaries, compilations and sessions), and Programmes. The roadmap link "Lire les articles" pre-filters Articles for 2026-2027 and displays a removable years tag.
+- Show cover art in its original colours, with a dark green category icon and year on a white badge. Show the title, a subtitle of at most three lines, the page count, the available languages, and a PDF link.
+- Show three rows by default, with nine cards on desktop and six on mobile. The older-years toggle expands the list.
 - **Language rule**: the list follows the site language. In French, French documents are shown. In Japanese, **all** documents are shown; a document with no Japanese version shows the note "日本語版はありません · Disponible en français uniquement" and the button "Lire (français)". Each publication has `pdf_fr` and optionally `pdf_ja`; the rule is driven by which fields are filled.
-- The 12 documents, with their data, are in `content-seed/publications.seed.json` (title, subtitle, type, year, pages, languages, cover source URL). Covers currently come from the old Squarespace site (`cover_source_url`): **download them into `public/images/covers/` and reference the local copies**; never hot-link in production.
+- The 12 original publications, with their data, are in `content-seed/publications.seed.json` (title, subtitle, type, year, pages, languages, cover source URL). Covers currently come from the old Squarespace site (`cover_source_url`): **download them into `public/images/covers/` and reference the local copies**; never hot-link in production. The five event programmes use local covers from the first page of their PDFs.
 
 ### Actions
 - Header: "Treize ans de rencontres pour mieux vivre en ville".
 - 2025 Osaka feature block.
 - 2024 "Bilan MVV 2024 : Pour des villes Smart & Sexy, une nouvelle conception de la durabilité": a post-event summary (two paragraphs) and **four session tabs**, each with a title, a short summary and the list of speakers (name, role) beneath it. The link "Lire le programme" opens `MVV_programme_2024.pdf`.
 - "Éditions précédentes": 2023, 2021-2022, 2019, 2017, 2016. Each edition shows a year block, title, date and place, a short intro, bullet items with a one-line description each, and one link: "Lire le programme" (2023, 2019, 2017, 2016) or "Lire la revue 2022" (2021-2022). The corresponding PDFs are in `design-reference/pdf/`.
-- This page keeps only events; documents not tied to an event live in Publications.
+- This page keeps only events. Programmes also appear in Publications, alongside other documents.
 
 ### Feuille de route 2026-2027
 Heading, three cards (2026 "Les Smart Cities observées sous de nouveaux angles" with the link "Lire les articles"; 2027; Automne 2027), then the timeline "De janvier à l'automne 2027" with four steps (Janvier 2027 Événement de lancement; T1-T2 2027 Recherche et entretiens; Été 2027 Rédaction; Automne 2027 Publication et événement).

@@ -1,0 +1,19 @@
+{
+  "year": 2019,
+  "type": "programme",
+  "order": 100,
+  "fr": {
+    "title": "Programme MVV 2019",
+    "description": "Tokyo · 23 octobre 2019"
+  },
+  "ja": {
+    "title": "MVV 2019年プログラム",
+    "description": "東京 · 2019年10月23日"
+  },
+  "pdf_fr": "/pdf/2019_2.pdf",
+  "pdf_ja": "/pdf/JP_2019_2.pdf",
+  "pages_fr": 7,
+  "pages_ja": 7,
+  "cover": "/images/covers/programme-2019.webp",
+  "cover_source_url": null
+}

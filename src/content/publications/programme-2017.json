@@ -1,0 +1,19 @@
+{
+  "year": 2017,
+  "type": "programme",
+  "order": 100,
+  "fr": {
+    "title": "Programme MVV 2017",
+    "description": "Orange Japon · 7 novembre 2017"
+  },
+  "ja": {
+    "title": "MVV 2017年プログラム",
+    "description": "オレンジ・ジャパン · 2017年11月7日"
+  },
+  "pdf_fr": "/pdf/2017_2.pdf",
+  "pdf_ja": "/pdf/JP_2017_2.pdf",
+  "pages_fr": 4,
+  "pages_ja": 4,
+  "cover": "/images/covers/programme-2017.webp",
+  "cover_source_url": null
+}

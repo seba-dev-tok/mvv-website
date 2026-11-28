@@ -1,0 +1,19 @@
+{
+  "year": 2016,
+  "type": "programme",
+  "order": 100,
+  "fr": {
+    "title": "Programme MVV 2016",
+    "description": "Orange Japon · 3 octobre 2016"
+  },
+  "ja": {
+    "title": "MVV 2016年プログラム",
+    "description": "オレンジ・ジャパン · 2016年10月3日"
+  },
+  "pdf_fr": "/pdf/2016_2.pdf",
+  "pdf_ja": "/pdf/JP_2016_2.pdf",
+  "pages_fr": 2,
+  "pages_ja": 2,
+  "cover": "/images/covers/programme-2016.webp",
+  "cover_source_url": null
+}

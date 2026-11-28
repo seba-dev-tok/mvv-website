@@ -34,7 +34,7 @@
 
 .publication-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
 }
 
@@ -51,40 +51,42 @@
 
 .publication-cover {
   position: relative;
-  display: grid;
-  place-items: center;
   height: 240px;
   overflow: hidden;
-  background: var(--cover-bg, var(--sand));
-  color: var(--cover-ink, var(--deep));
+  background: var(--pale);
 }
 
-.publication-cover.article { --cover-bg: var(--green); --cover-ink: var(--night); --tag-bg: var(--night); }
-.publication-cover.revue, .publication-cover.rapport { --cover-bg: var(--deep); --cover-ink: #fff; --tag-bg: var(--pale); --tag-ink: var(--night); }
-.publication-cover.rapport { --cover-bg: var(--mid); }
-.publication-cover.session { --cover-bg: var(--pale); }
-
-.publication-cover img, .publication-cover.has-image::after { position: absolute; inset: 0; width: 100%; height: 100%; }
-.publication-cover img { object-fit: cover; object-position: top center; }
-.publication-cover.has-image::after { background: linear-gradient(rgb(18 48 27 / 24%), rgb(18 48 27 / 40%)); content: ''; }
+.publication-cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
 
 .publication-category {
   position: absolute;
-  z-index: 2;
-  top: 18px;
-  left: 18px;
-  max-width: calc(100% - 36px);
+  top: 12px;
+  left: 12px;
+  max-width: calc(100% - 24px);
   padding: 6px 12px;
   border-radius: 999px;
-  background: var(--tag-bg, var(--deep));
-  color: var(--tag-ink, #fff);
+  background: #184629;
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
 }
 
-.publication-cover-year { z-index: 1; display: grid; justify-items: center; gap: 4px; }
-.publication-cover-year span { font: 44px/1 var(--heading); }
-.publication-cover.has-image .publication-cover-year { color: #fff; text-shadow: 0 2px 12px rgb(0 0 0 / 35%); }
+.publication-cover-year {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 10px;
+  border: 1px solid #d9e5db;
+  border-radius: 11px;
+  background: #fff;
+  color: #184629;
+  box-shadow: 0 2px 8px rgb(18 48 27 / 13%);
+}
+
+.publication-cover-year span { font: 600 16px var(--body); }
 
 .publication-body { display: flex; flex: 1; flex-direction: column; padding: 24px 26px 26px; overflow-wrap: anywhere; }
 .publication-card-meta { margin-bottom: 10px; color: #6b6b6b; font-size: 13px; }
@@ -104,6 +106,7 @@
 .publication-read { align-self: flex-start; margin-top: auto; padding-bottom: 2px; border-bottom: 2px solid var(--green); color: var(--deep); font-size: 14px; font-weight: 600; }
 .publication-note { padding: 10px 14px; margin-bottom: 18px; border-radius: 12px; background: var(--cream); color: #6b3f00; font-size: 13px; line-height: 1.5; font-weight: 600; }
 .publication-more { display: flex; justify-content: center; }
+.publication-more button[hidden] { display: none; }
 .publication-more button:not([hidden]) { margin-top: 40px; }
 .publication-more button:hover { background: var(--deep); color: #fff; }
 .publication-fine { margin: 22px 0 0; color: #6b6b6b; font-size: 13px; line-height: 1.5; }
@@ -114,10 +117,12 @@
   .publication-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .publication-card { border-radius: 16px; }
   .publication-card:hover { transform: none; }
-  .publication-cover { height: 120px; padding-top: 14px; }
-  .publication-category { top: 8px; left: 8px; max-width: calc(100% - 16px); padding: 4px 8px; font-size: 10px; line-height: 1.2; }
-  .publication-cover-year svg { width: 30px; height: 30px; }
-  .publication-cover-year span { font-size: 26px; }
+  .publications:not([data-ready]) [data-mobile-overflow] { display: none; }
+  .publication-cover { height: 120px; }
+  .publication-category { top: 7px; left: 7px; max-width: calc(100% - 14px); padding: 4px 8px; font-size: 10px; line-height: 1.2; }
+  .publication-cover-year { right: 7px; bottom: 7px; gap: 4px; padding: 4px 7px; }
+  .publication-cover-year svg { width: 15px; height: 15px; }
+  .publication-cover-year span { font-size: 12px; }
   .publication-body { padding: 12px 12px 14px; }
   .publication-card-meta { margin-bottom: 6px; font-size: 11px; }
   .publication-body h3 { margin-bottom: 8px; font-size: 16px; line-height: 1.2; }

@@ -14,7 +14,7 @@ const publications = defineCollection({
   loader: glob({ base: './src/content/publications', pattern: '*.json' }),
   schema: z.object({
     year: z.number().int().min(1900).max(9999),
-    type: z.enum(['article', 'revue', 'rapport', 'compilation', 'session']),
+    type: z.enum(['article', 'revue', 'rapport', 'compilation', 'session', 'programme']),
     order,
     ...localized(z.object({ title: text, description: text })),
     pdf_fr: pdf,
