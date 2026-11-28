@@ -19,7 +19,7 @@ const roadmapCopy = roadmap[locale];
   <div class="wrap">
     <div class="eyebrow">{mission.label[locale]}</div>
     <div class="mission">
-      <h2 id="mission-title">{missionCopy.heading[0]}<em>{missionCopy.heading[1]}</em></h2>
+      <h2 id="mission-title">{missionCopy.heading[0]}<em lang="en">{missionCopy.heading[1]}</em>{missionCopy.heading[2]}</h2>
       <div class="mission-copy">{missionCopy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div>
     </div>
     <div class="stats">
