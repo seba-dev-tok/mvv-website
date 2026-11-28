@@ -1,0 +1,19 @@
+{
+  "year": 2023,
+  "type": "programme",
+  "order": 100,
+  "fr": {
+    "title": "Programme MVV 2023",
+    "description": "Ambassade de France au Japon · 28 juin 2023"
+  },
+  "ja": {
+    "title": "MVV 2023年プログラム",
+    "description": "在日フランス大使館 · 2023年6月28日"
+  },
+  "pdf_fr": "/pdf/2023_2.pdf",
+  "pdf_ja": "/pdf/JP_2023_2.pdf",
+  "pages_fr": 12,
+  "pages_ja": 12,
+  "cover": "/images/covers/programme-2023.webp",
+  "cover_source_url": null
+}

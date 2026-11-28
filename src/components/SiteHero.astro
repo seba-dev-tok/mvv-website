@@ -134,7 +134,6 @@ const slides = await Promise.all(entries.map(async ({ data }) => {
 
   for (const image of document.querySelectorAll<HTMLImageElement>('.covers-grid img, .publication-cover img')) {
     const fallback = () => {
-      image.parentElement?.classList.remove('has-image');
       image.remove();
     };
     if (image.complete && !image.naturalWidth && image.currentSrc) fallback();

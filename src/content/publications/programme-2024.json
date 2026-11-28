@@ -1,0 +1,19 @@
+{
+  "year": 2024,
+  "type": "programme",
+  "order": 100,
+  "fr": {
+    "title": "Programme MVV 2024",
+    "description": "Université de Tokyo et INALCO, Paris · 12 juin 2024"
+  },
+  "ja": {
+    "title": "MVV 2024年プログラム",
+    "description": "東京大学・パリのINALCO · 2024年6月12日"
+  },
+  "pdf_fr": "/pdf/2024_2.pdf",
+  "pdf_ja": "/pdf/JP_2024_2.pdf",
+  "pages_fr": 2,
+  "pages_ja": 2,
+  "cover": "/images/covers/programme-2024.webp",
+  "cover_source_url": null
+}

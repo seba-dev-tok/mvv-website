@@ -5,16 +5,15 @@
       "all": "Tous les documents",
       "article": "Articles",
       "revue": "Journaux et revues",
-      "rapport": "Rapports et synthèses",
-      "compilation": "Compilations",
-      "session": "Sessions"
+      "programme": "Programmes"
     },
     "types": {
       "article": "Article",
       "revue": "Journal et revue",
       "rapport": "Rapport et synthèse",
       "compilation": "Compilation",
-      "session": "Session"
+      "session": "Session",
+      "programme": "Programme"
     },
     "count": "{count} document · langue du site : français",
     "countPlural": "{count} documents · langue du site : français",
@@ -40,16 +39,15 @@
       "all": "すべての文書",
       "article": "記事",
       "revue": "ジャーナル・レビュー",
-      "rapport": "報告書・総括",
-      "compilation": "事例集",
-      "session": "セッション"
+      "programme": "プログラム"
     },
     "types": {
       "article": "記事",
       "revue": "ジャーナル・レビュー",
       "rapport": "報告書・総括",
       "compilation": "事例集",
-      "session": "セッション"
+      "session": "セッション",
+      "programme": "プログラム"
     },
     "count": "{count}件 · サイト言語：日本語",
     "countPlural": "{count}件 · サイト言語：日本語",
