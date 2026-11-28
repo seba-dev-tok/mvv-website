@@ -7,8 +7,8 @@
         "ja": "2023年"
       },
       "title": {
-        "fr": "Symposium 2023",
-        "ja": "2023年シンポジウム"
+        "fr": "Édition MVV 2023",
+        "ja": "MVV 2023年版"
       },
       "subtitle": {
         "fr": "28 juin 2023 · Ambassade de France au Japon",
@@ -94,6 +94,10 @@
       "pdf": {
         "fr": "/pdf/2023_2.pdf",
         "ja": "/pdf/JP_2023_2.pdf"
+      },
+      "report": {
+        "fr": "/pdf/FR-2023_1.pdf",
+        "ja": "/pdf/JP_2023_1.pdf"
       }
     },
     {
@@ -102,8 +106,8 @@
         "ja": "2021〜22年"
       },
       "title": {
-        "fr": "Sessions d’échange en ligne 2021/2022",
-        "ja": "2021〜2022年オンライン交流会"
+        "fr": "Édition MVV 2021–2022",
+        "ja": "MVV 2021–2022年版"
       },
       "subtitle": {
         "fr": "Cycle de trois sessions en ligne",
@@ -155,7 +159,7 @@
           }
         }
       ],
-      "link": "review",
+      "link": "report",
       "pdf": {
         "fr": "/pdf/2022_1.pdf",
         "ja": "/pdf/JP_2022_1.pdf"
@@ -167,8 +171,8 @@
         "ja": "2019年"
       },
       "title": {
-        "fr": "Séminaire 2019",
-        "ja": "2019年セミナー"
+        "fr": "Édition MVV 2019",
+        "ja": "MVV 2019年版"
       },
       "subtitle": {
         "fr": "Avec session interactive",
@@ -226,6 +230,10 @@
       "datePlace": {
         "fr": "23 octobre 2019 · Tokyo",
         "ja": "2019年10月23日 · 東京"
+      },
+      "report": {
+        "fr": "/pdf/2019_1.pdf",
+        "ja": "/pdf/JP_2019_1.pdf"
       }
     },
     {
@@ -234,8 +242,8 @@
         "ja": "2017年"
       },
       "title": {
-        "fr": "Séminaire 2017",
-        "ja": "2017年セミナー"
+        "fr": "Édition MVV 2017",
+        "ja": "MVV 2017年版"
       },
       "subtitle": {
         "fr": "Avec table ronde animée",
@@ -303,6 +311,10 @@
       "datePlace": {
         "fr": "7 novembre 2017 · Orange Japon",
         "ja": "2017年11月7日 · オレンジ・ジャパン"
+      },
+      "report": {
+        "fr": "/pdf/2017_1.pdf",
+        "ja": "/pdf/JP_2017_1.pdf"
       }
     },
     {
@@ -311,12 +323,12 @@
         "ja": "2016年"
       },
       "title": {
-        "fr": "Présentations flash 2016",
-        "ja": "2016年ライトニングトーク"
+        "fr": "Édition MVV 2016",
+        "ja": "MVV 2016年版"
       },
       "subtitle": {
-        "fr": "Format court et participatif",
-        "ja": "短時間の参加型イベント"
+        "fr": "Présentations flash 2016 · Format court et participatif",
+        "ja": "2016年ライトニングトーク · 短時間の参加型イベント"
       },
       "statistics": {
         "fr": [
@@ -390,6 +402,10 @@
       "datePlace": {
         "fr": "3 octobre 2016 · Orange Japon",
         "ja": "2016年10月3日 · オレンジ・ジャパン"
+      },
+      "report": {
+        "fr": "/pdf/2016_1.pdf",
+        "ja": "/pdf/JP_2016_1.pdf"
       }
     }
   ]

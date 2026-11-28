@@ -94,12 +94,12 @@
   },
   "links": {
     "program": {
-      "fr": "Lire le programme",
-      "ja": "プログラムを読む"
+      "fr": "Lire le programme (PDF)",
+      "ja": "プログラムを読む（PDF）"
     },
-    "review": {
-      "fr": "Lire la revue 2022",
-      "ja": "2022年版レビューを読む"
+    "report": {
+      "fr": "Lire le rapport (PDF)",
+      "ja": "報告書を読む（PDF）"
     }
   }
 }

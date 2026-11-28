@@ -1,0 +1,13 @@
+---
+interface Props {
+  links: { href: string; label: string }[];
+}
+
+const { links } = Astro.props;
+---
+
+<div class="actions-documents">
+  {links.map(({ href, label }) => (
+    <a class="actions-pdf" href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+  ))}
+</div>

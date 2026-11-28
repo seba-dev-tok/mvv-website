@@ -8,10 +8,9 @@ interface Props {
   sessions: Bilan['sessions'];
   label: string;
   speakersLabel: string;
-  program: { href: string; label: string };
 }
 
-const { locale, sessions, label, speakersLabel, program } = Astro.props;
+const { locale, sessions, label, speakersLabel } = Astro.props;
 ---
 
 <div class="actions-sessions" data-action-sessions>
@@ -34,7 +33,6 @@ const { locale, sessions, label, speakersLabel, program } = Astro.props;
       </ul>
     </section>
   ))}
-  <a class="actions-pdf" href={program.href} target="_blank" rel="noopener noreferrer">{program.label}</a>
 </div>
 
 <script>

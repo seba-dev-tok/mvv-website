@@ -86,7 +86,8 @@
 .actions-speakers b { display: block; font: 500 20px/1.2 var(--heading); }
 .actions-speakers span { display: block; margin-top: 3px; color: #6b6b6b; font-size: 14px; line-height: 1.4; }
 .actions-pdf { display: inline-block; padding-bottom: 2px; border-bottom: 2px solid var(--green); color: var(--deep); font-size: 15px; font-weight: 600; }
-.actions-sessions > .actions-pdf { margin-top: 24px; }
+.actions-documents { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 26px; }
+.actions-bilan > .actions-documents { margin-top: 20px; }
 
 .actions-editions { padding-bottom: 96px; }
 .actions-editions h2 { max-width: 760px; margin-bottom: 40px; }
