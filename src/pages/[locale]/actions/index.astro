@@ -89,6 +89,11 @@ const home = getRelativeLocaleUrl(locale);
           </div>
           <ul class="actions-tags">{edition.statistics[locale].map(stat => <li>{stat}</li>)}</ul>
           <p>{edition.description[locale]}</p>
+          <div class="edition-takeaway">
+            <div class="eyebrow">{earlier.takeawayLabel[locale]}</div>
+            <h4>{edition.takeaway.title[locale]}</h4>
+            {edition.takeaway.paragraphs[locale].map(paragraph => <p>{paragraph}</p>)}
+          </div>
           <ul class="edition-topics">
             {edition.bullets.map(bullet => <li><b>{bullet.label[locale]}</b> {bullet.description[locale]}</li>)}
           </ul>

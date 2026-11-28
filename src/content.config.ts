@@ -64,7 +64,7 @@ const actions = defineCollection({
         statistics: z.array(statistic).min(1),
       }),
       jump: z.object({ label: copy, items: z.array(z.object({ id: z.enum(['e2025', 'e2024', 'editions']), label: copy })).min(1) }),
-      earlier: z.object({ eyebrow: copy, title: copy, note: copy }),
+      earlier: z.object({ eyebrow: copy, title: copy, note: copy, takeawayLabel: copy }),
       links: z.object({ program: copy, report: copy }),
     }),
     z.object({
@@ -105,6 +105,7 @@ const actions = defineCollection({
         datePlace: copy.optional(),
         statistics: copyList,
         description: copy,
+        takeaway: z.object({ title: copy, paragraphs: copyList }),
         bullets: z.array(z.object({ label: copy, description: copy })).min(1),
         link: z.enum(['program', 'report']),
         pdf: eventPdfs,
