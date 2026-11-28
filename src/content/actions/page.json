@@ -90,6 +90,10 @@
     "note": {
       "fr": "Cette page ne présente que les événements. Les documents (revues, rapports, synthèses, compilations) sont regroupés dans Publications.",
       "ja": "このページではイベントを紹介しています。レビュー、報告書、総括、事例集などの資料は「出版物」に掲載しています。"
+    },
+    "takeawayLabel": {
+      "fr": "Ce qu’on en retient",
+      "ja": "この回で得られた知見"
     }
   },
   "links": {

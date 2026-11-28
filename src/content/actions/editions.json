@@ -98,12 +98,26 @@
       "report": {
         "fr": "/pdf/FR-2023_1.pdf",
         "ja": "/pdf/JP_2023_1.pdf"
+      },
+      "takeaway": {
+        "title": {
+          "fr": "La diversité des regards façonne la ville de demain",
+          "ja": "さまざまな視点が未来の都市を形づくる"
+        },
+        "paragraphs": {
+          "fr": [
+            "Les 16 intervenants et les tables rondes ont souligné l’importance de la diversité des visions des villes et du rôle essentiel des individus dans la concrétisation des villes de demain."
+          ],
+          "ja": [
+            "16名の登壇者による発表とラウンドテーブルでは、都市をめぐる多様な視点と、未来の都市を形づくる一人ひとりの役割の重要性が強調されました。"
+          ]
+        }
       }
     },
     {
       "year": {
-        "fr": "2021–22",
-        "ja": "2021〜22年"
+        "fr": "2021–2022",
+        "ja": "2021〜2022年"
       },
       "title": {
         "fr": "Édition MVV 2021–2022",
@@ -163,6 +177,22 @@
       "pdf": {
         "fr": "/pdf/2022_1.pdf",
         "ja": "/pdf/JP_2022_1.pdf"
+      },
+      "takeaway": {
+        "title": {
+          "fr": "La neutralité carbone se construit ensemble",
+          "ja": "協力してカーボンニュートラルを実現する"
+        },
+        "paragraphs": {
+          "fr": [
+            "Les collectivités et les experts ont partagé des initiatives concrètes et transposables pour réduire l’empreinte carbone tout en renforçant l’attractivité des villes.",
+            "La transition vers des villes post-carbone repose sur des solutions complémentaires et sur la coopération entre acteurs publics et privés, en France et au Japon."
+          ],
+          "ja": [
+            "自治体や専門家は、都市の魅力を高めながら二酸化炭素の排出量を減らす、ほかの地域でも実践できる具体的な取り組みを共有しました。",
+            "脱炭素都市への移行には、互いを補うさまざまな解決策と、日仏の官民の協力が欠かせません。"
+          ]
+        }
       }
     },
     {
@@ -234,6 +264,20 @@
       "report": {
         "fr": "/pdf/2019_1.pdf",
         "ja": "/pdf/JP_2019_1.pdf"
+      },
+      "takeaway": {
+        "title": {
+          "fr": "Associer les citoyens, adapter la ville et renouveler son financement",
+          "ja": "市民参加、都市の柔軟性、新たな資金調達"
+        },
+        "paragraphs": {
+          "fr": [
+            "Les échanges ont fait ressortir trois priorités : associer les citoyens aux décisions, donner aux villes la souplesse nécessaire pour évoluer et trouver des solutions de financement innovantes."
+          ],
+          "ja": [
+            "議論では、市民が意思決定に参加できるようにすること、都市が変化に対応できる柔軟性を確保すること、革新的な資金調達の方法を見いだすことの三つが重視されました。"
+          ]
+        }
       }
     },
     {
@@ -315,6 +359,22 @@
       "report": {
         "fr": "/pdf/2017_1.pdf",
         "ja": "/pdf/JP_2017_1.pdf"
+      },
+      "takeaway": {
+        "title": {
+          "fr": "Partir des besoins des habitants et partager les expériences",
+          "ja": "住民のニーズを出発点に、都市の経験を共有する"
+        },
+        "paragraphs": {
+          "fr": [
+            "Les tables rondes ont fait ressortir la nécessité d’inscrire les solutions technologiques dans les besoins sociaux et d’adapter les législations à un environnement en transformation.",
+            "Le symposium a confirmé l’intérêt du partage d’expériences entre villes, dont les cultures et les visions de l’avenir peuvent différer."
+          ],
+          "ja": [
+            "ラウンドテーブルでは、技術を社会のニーズに合わせ、変化する環境に応じて法制度を見直す必要性が浮き彫りになりました。",
+            "都市によって文化や未来像が異なるからこそ、互いの経験を共有する意義が確認されました。"
+          ]
+        }
       }
     },
     {
@@ -406,6 +466,22 @@
       "report": {
         "fr": "/pdf/2016_1.pdf",
         "ja": "/pdf/JP_2016_1.pdf"
+      },
+      "takeaway": {
+        "title": {
+          "fr": "Mettre la technologie au service de l’humain",
+          "ja": "技術を人のために生かす"
+        },
+        "paragraphs": {
+          "fr": [
+            "La grande variété des thèmes et des sujets proposés lors du 1er symposium a démontré la difficulté de définir le terme même de « smart city » ou ville du futur.",
+            "À l’issue de la journée, un des constats majeurs et unanimes fût que l’humain doit être remis au centre de la réflexion et que la technologie doit être à son service et non l’inverse."
+          ],
+          "ja": [
+            "第1回シンポジウムで取り上げられたテーマの幅広さから、「スマートシティ」や「未来の都市」という言葉自体を定義する難しさが明らかになりました。",
+            "一日の議論を通じ、人を都市のあり方を考える中心に据え直し、技術は人のために使うべきだという点で、参加者の意見が一致しました。"
+          ]
+        }
       }
     }
   ]
