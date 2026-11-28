@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import SiteLayout from '../../../components/SiteLayout.astro';
 import ActionSessions from '../../../components/ActionSessions.astro';
+import ActionDocuments from '../../../components/ActionDocuments.astro';
 import '../../../styles/actions.css';
 
 export function getStaticPaths() {
@@ -59,6 +60,10 @@ const home = getRelativeLocaleUrl(locale);
     <div class="eyebrow">{bilan.eyebrow[locale]}</div>
     <h2 id="bilan-title">{bilan.title[locale][0]}<em>{bilan.title[locale][1]}</em></h2>
     {bilan.summary[locale].map(paragraph => <p class="actions-lead">{paragraph}</p>)}
+    <ActionDocuments links={[
+      { href: bilan.pdf[locale], label: links.program[locale] },
+      { href: bilan.report[locale], label: links.report[locale] },
+    ]} />
     <div class="actions-facts">
       {bilan.statistics.map(stat => <div><b>{stat.value}</b><span>{stat.label[locale]}</span></div>)}
       <div><small>{bilan.opening.label[locale]}</small><span>{bilan.opening.description[locale]}</span></div>
@@ -68,7 +73,6 @@ const home = getRelativeLocaleUrl(locale);
       sessions={bilan.sessions}
       label={bilan.sessionsLabel[locale]}
       speakersLabel={bilan.speakersLabel[locale]}
-      program={{ href: bilan.pdf[locale], label: links.program[locale] }}
     />
   </section>
 
@@ -88,7 +92,10 @@ const home = getRelativeLocaleUrl(locale);
           <ul class="edition-topics">
             {edition.bullets.map(bullet => <li><b>{bullet.label[locale]}</b> {bullet.description[locale]}</li>)}
           </ul>
-          <a class="actions-pdf" href={edition.pdf[locale]} target="_blank" rel="noopener noreferrer">{links[edition.link][locale]}</a>
+          <ActionDocuments links={[
+            { href: edition.pdf[locale], label: links[edition.link][locale] },
+            ...(edition.report ? [{ href: edition.report[locale], label: links.report[locale] }] : []),
+          ]} />
         </div>
       </article>
     ))}

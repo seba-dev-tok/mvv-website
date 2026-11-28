@@ -6,11 +6,11 @@
   },
   "title": {
     "fr": [
-      "Bilan MVV 2024 : ",
+      "Édition MVV 2024 : ",
       "Pour des villes Smart & Sexy, une nouvelle conception de la durabilité"
     ],
     "ja": [
-      "MVV 2024の振り返り：",
+      "MVV 2024年版：",
       "スマートで魅力的な都市へ、持続可能性を捉え直す"
     ]
   },
@@ -302,5 +302,9 @@
   "pdf": {
     "fr": "/pdf/2024_2.pdf",
     "ja": "/pdf/JP_2024_2.pdf"
+  },
+  "report": {
+    "fr": "/pdf/FR-2024_1.pdf",
+    "ja": "/pdf/JP_2024_1.pdf"
   }
 }

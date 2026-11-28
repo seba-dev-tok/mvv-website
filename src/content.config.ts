@@ -65,7 +65,7 @@ const actions = defineCollection({
       }),
       jump: z.object({ label: copy, items: z.array(z.object({ id: z.enum(['e2025', 'e2024', 'editions']), label: copy })).min(1) }),
       earlier: z.object({ eyebrow: copy, title: copy, note: copy }),
-      links: z.object({ program: copy, review: copy }),
+      links: z.object({ program: copy, report: copy }),
     }),
     z.object({
       kind: z.literal('osaka-2025'),
@@ -94,6 +94,7 @@ const actions = defineCollection({
         speakers: z.array(z.object({ name: text, role: copy })).min(1),
       })).length(4),
       pdf: eventPdfs,
+      report: eventPdfs,
     }),
     z.object({
       kind: z.literal('editions'),
@@ -105,8 +106,9 @@ const actions = defineCollection({
         statistics: copyList,
         description: copy,
         bullets: z.array(z.object({ label: copy, description: copy })).min(1),
-        link: z.enum(['program', 'review']),
+        link: z.enum(['program', 'report']),
         pdf: eventPdfs,
+        report: eventPdfs.optional(),
         todo: text.optional(),
       })).length(5),
     }),
