@@ -90,7 +90,7 @@ Four members as cards (photo, name, role, company), each card is a link to the m
 ### Publications
 - Filter chips by type: Tous les documents, Articles, Journaux et revues, Rapports et synthèses, Compilations, Sessions. **No "Programmes" type. No year filter in the UI** (except the removable "Années : 2026 · 2027 ✕" tag set by the roadmap link "Lire les articles", which pre-filters Articles for 2026-2027).
 - Cards show the cover image (with the dark-green overlay, the document icon and the year centred), the title, a subtitle of **at most 3 lines**, the page count and the available languages. Card: "Lire" button.
-- Default: 10 documents displayed, then a "older years" toggle. Desktop: grid; mobile: two compact columns.
+- Default: 7 documents displayed, then a "older years" toggle. Desktop: grid; mobile: two compact columns.
 - **Language rule**: the list follows the site language. In French, French documents are shown. In Japanese, **all** documents are shown; a document with no Japanese version shows the note "日本語版はありません · Disponible en français uniquement" and the button "Lire (français)". Each publication has `pdf_fr` and optionally `pdf_ja`; the rule is driven by which fields are filled.
 - The 12 documents, with their data, are in `content-seed/publications.seed.json` (title, subtitle, type, year, pages, languages, cover source URL). Covers currently come from the old Squarespace site (`cover_source_url`): **download them into `public/images/covers/` and reference the local copies**; never hot-link in production.
 

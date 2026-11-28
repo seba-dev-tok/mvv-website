@@ -104,6 +104,7 @@
 .publication-read { align-self: flex-start; margin-top: auto; padding-bottom: 2px; border-bottom: 2px solid var(--green); color: var(--deep); font-size: 14px; font-weight: 600; }
 .publication-note { padding: 10px 14px; margin-bottom: 18px; border-radius: 12px; background: var(--cream); color: #6b3f00; font-size: 13px; line-height: 1.5; font-weight: 600; }
 .publication-more { display: flex; justify-content: center; }
+.publication-more button[hidden] { display: none; }
 .publication-more button:not([hidden]) { margin-top: 40px; }
 .publication-more button:hover { background: var(--deep); color: #fff; }
 .publication-fine { margin: 22px 0 0; color: #6b6b6b; font-size: 13px; line-height: 1.5; }

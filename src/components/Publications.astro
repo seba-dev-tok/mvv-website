@@ -10,7 +10,7 @@ interface Props {
 
 const { locale } = Astro.props;
 const copy = ui[locale];
-const pageSize = 10;
+const pageSize = 7;
 const heading = site.navigation.find(item => item.href === '#publications')![locale];
 const publications = (await getCollection('publications'))
   .filter(({ data }) => locale === 'ja' || data.pdf_fr)
